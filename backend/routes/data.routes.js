@@ -1,13 +1,6 @@
 import express from 'express';
-<<<<<<< HEAD
-import { getLatLong, getWeatherData } from '../controllers/data.controller.js';
-=======
-import { 
-  getVillageData, 
-  getWeatherData, 
-  addVillage 
-} from '../controller/data.controller.js';
->>>>>>> 43e5dc84bbb2a1c1e6a961b4e219aa14d5207405
+import { addVillage, getVillageData, getWeatherData } from '../controllers/data.controller.js';
+
 
 const router = express.Router();
 
@@ -19,9 +12,5 @@ router.get('/get-village', getVillageData);
 
 // Route to fetch weather data
 router.get('/weather', getWeatherData);
-<<<<<<< HEAD
-router.get('/latlong', getLatLong);
-=======
->>>>>>> 43e5dc84bbb2a1c1e6a961b4e219aa14d5207405
 
 export default router;

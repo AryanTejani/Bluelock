@@ -2,15 +2,8 @@ import express from 'express';
 import dotenv from 'dotenv';
 import cors from 'cors';
 import morgan from 'morgan';
-<<<<<<< HEAD
 import dataRoutes from './routes/data.routes.js';
 import authRoutes from './routes/auth.routes.js';
-=======
-import dataRoutes from "./routes/data.routes.js"
-import authRoutes from "./routes/auth.routes.js"
-import formRoutes from "./routes/form.routes.js"
-
->>>>>>> 43e5dc84bbb2a1c1e6a961b4e219aa14d5207405
 import connectDB from './Db/connectDb.js';
 
 // Load environment variables
@@ -25,15 +18,9 @@ app.use(cors());
 app.use(morgan('dev'));
 connectDB();
 
-<<<<<<< HEAD
 app.use('/api', dataRoutes);
 app.use('/auth', authRoutes);
 
-=======
-app.use('/api',dataRoutes)
-app.use('/auth',authRoutes)
-app.use('/form',formRoutes)
->>>>>>> 43e5dc84bbb2a1c1e6a961b4e219aa14d5207405
 // Sample Route
 app.get('/', (req, res) => {
   res.send('Server is running...');

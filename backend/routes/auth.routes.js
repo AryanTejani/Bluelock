@@ -4,8 +4,8 @@ import {
   loginUser,
   getFarmers,
   getFarmerById,
-  getBanks,
-  getBankById,
+  getAgents, // Changed from getBanks to getAgents
+  getAgentById, // Changed from getBankById to getAgentById
   checkLoanEligibility
 } from '../controllers/auth.controller.js';
 
@@ -19,9 +19,9 @@ router.post('/login', loginUser);
 router.get('/farmers', getFarmers);
 router.get('/farmers/:id', getFarmerById);
 
-// Banker Routes
-router.get('/banks', getBanks);
-router.get('/banks/:id', getBankById);
-router.post('/banks/loan-eligibility', checkLoanEligibility);
+// Agent Routes
+router.get('/agents', getAgents); // Changed from banks to agents
+router.get('/agents/:id', getAgentById); // Changed from banks to agents
+router.post('/agents/loan-eligibility', checkLoanEligibility); // Changed from banks to agents
 
 export default router;

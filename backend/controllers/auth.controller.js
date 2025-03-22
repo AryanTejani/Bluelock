@@ -1,20 +1,20 @@
 import Farmer from "../models/farmer.model.js";
-import Bank from "../models/bank.model.js";
+import Agent from "../models/agent.model.js"; // Changed from Bank to Agent
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 
 const SECRET_KEY = process.env.JWT_SECRET;
 
-// User Registration (Farmer or Banker)
+// User Registration (Farmer or Agent)
 export const registerUser = async (req, res) => {
   try {
     const { role, firstname, lastname, email, password } = req.body;
 
-    if (!role || !["farmer", "banker"].includes(role)) {
+    if (!role || !["farmer", "agent"].includes(role)) { // Changed from banker to agent
       return res.status(400).json({ message: "Invalid role" });
     }
 
-    const Model = role === "farmer" ? Farmer : Bank;
+    const Model = role === "farmer" ? Farmer : Agent; // Changed from Bank to Agent
 
     const existingUser = await Model.findOne({ email });
     if (existingUser)
@@ -39,12 +39,11 @@ export const loginUser = async (req, res) => {
   try {
     const { role, email, password } = req.body;
 
-    const Model = role === "farmer" ? Farmer : Bank;
+    const Model = role === "farmer" ? Farmer : Agent; // Changed from Bank to Agent
     const user = await Model.findOne({ email }).select("+password");
 
     if (!user) return res.status(400).json({ message: "Invalid credentials" });
 
-    console.log("HOLE HOLE")
     const isMatch = await bcrypt.compare(password, user.password);
     
     if (!isMatch)
@@ -81,25 +80,25 @@ export const getFarmerById = async (req, res) => {
   }
 };
 
-// Get all banks
-export const getBanks = async (req, res) => {
+// Get all agents
+export const getAgents = async (req, res) => { // Changed from getBanks to getAgents
   try {
-    const banks = await Bank.find();
-    res.json(banks);
+    const agents = await Agent.find(); // Changed from Bank to Agent
+    res.json(agents);
   } catch (error) {
-    res.status(500).json({ message: "Error fetching banks", error });
+    res.status(500).json({ message: "Error fetching agents", error }); // Changed from banks to agents
   }
 };
 
-// Get bank by ID
-export const getBankById = async (req, res) => {
+// Get agent by ID
+export const getAgentById = async (req, res) => { // Changed from getBankById to getAgentById
   try {
-    const bank = await Bank.findById(req.params.id);
-    if (!bank) return res.status(404).json({ message: "Bank not found" });
+    const agent = await Agent.findById(req.params.id); // Changed from Bank to Agent
+    if (!agent) return res.status(404).json({ message: "Agent not found" }); // Changed from Bank to Agent
 
-    res.json(bank);
+    res.json(agent);
   } catch (error) {
-    res.status(500).json({ message: "Error fetching bank", error });
+    res.status(500).json({ message: "Error fetching agent", error }); // Changed from bank to agent
   }
 };
 
