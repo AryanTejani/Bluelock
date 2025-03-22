@@ -5,7 +5,7 @@ import morgan from 'morgan';
 import dataRoutes from './routes/data.routes.js';
 import authRoutes from './routes/auth.routes.js';
 import connectDB from './Db/connectDb.js';
-
+import authRoutes2 from './routes/auth2.route.js';
 // Load environment variables
 dotenv.config();
 
@@ -20,7 +20,7 @@ connectDB();
 
 app.use('/api', dataRoutes);
 app.use('/auth', authRoutes);
-
+app.use('/auth2',authRoutes2)
 // Sample Route
 app.get('/', (req, res) => {
   res.send('Server is running...');
@@ -37,7 +37,7 @@ const startServer = (port) => {
 
   server.on('error', (err) => {
     if (err.code === 'EADDRINUSE') {
-      console.log(`Port ${port} is in use, trying port ${port + 1}`);
+      console.log(`Port ${port} is in use, trying port ${port}`);
       startServer(port + 1);
     } else {
       console.error(err);
