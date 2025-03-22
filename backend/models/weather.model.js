@@ -1,6 +1,7 @@
 import mongoose from 'mongoose';
 
 const WeatherSchema = new mongoose.Schema({
+    village: { type: mongoose.Schema.Types.ObjectId, ref: 'Village', required: true }, // Reference to Village
     coord: {
         lon: Number,
         lat: Number

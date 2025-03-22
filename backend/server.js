@@ -4,6 +4,7 @@ import cors from 'cors';
 import morgan from 'morgan';
 import dataRoutes from "./routes/data.routes.js"
 import authRoutes from "./routes/auth.routes.js"
+import formRoutes from "./routes/form.routes.js"
 
 import connectDB from './Db/connectDb.js';
 // Load environment variables
@@ -20,7 +21,7 @@ connectDB();
 
 app.use('/api',dataRoutes)
 app.use('/auth',authRoutes)
-
+app.use('/form',formRoutes)
 // Sample Route
 app.get('/', (req, res) => {
     res.send('Server is running...');
