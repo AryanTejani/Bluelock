@@ -1,7 +1,10 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import cors from 'cors';
-import weatherRoutes from "./controller/data.controller.js"
+
+import dataRoutes from "./routes/data.routes.js"
+import authRoutes from "./routes/auth.routes.js"
+
 import connectDB from './Db/connectDb.js';
 // Load environment variables
 dotenv.config();
@@ -15,7 +18,8 @@ app.use(cors()); // Enable CORS
 
 connectDB();
 
-app.use('/api',weatherRoutes)
+app.use('/api',dataRoutes)
+app.use('/auth',authRoutes)
 
 // Sample Route
 app.get('/', (req, res) => {
