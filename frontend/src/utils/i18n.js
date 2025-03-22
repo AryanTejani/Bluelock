@@ -7,7 +7,8 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import enTranslations from './locales/en.json';
 import hiTranslations from './locales/hi.json';
 import guTranslations from './locales/gu.json';
-
+import taTranslations from './locales/ta.json'
+import teTranslations from './locales/te.json'
 // Resources object containing all translations
 const resources = {
   en: {
@@ -19,12 +20,12 @@ const resources = {
   gu: {
     translation: guTranslations
   },
-//   ta: {
-//     translation: taTranslations
-//   },
-//   te: {
-//     translation: teTranslations
-//   }
+  ta: {
+    translation: taTranslations
+  },
+  te: {
+    translation: teTranslations
+  }
 };
 
 i18n
