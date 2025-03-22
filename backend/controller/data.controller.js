@@ -4,7 +4,7 @@ import weatherModel from "../models/weather.model.js";
 
 dotenv.config();
 
-const getWeatherData = async (req, res) => {
+export const getWeatherData = async (req, res) => {
   try {
     const { lat, lon } = req.query;
     if (!lat || !lon) {
@@ -60,4 +60,16 @@ const getWeatherData = async (req, res) => {
   }
 };
 
-export default getWeatherData;
+
+export const getLatLong = async (req, res) => {
+  try {
+    const apiKey = process.env.SOIL_HEALTH_API;
+    const response = await axios.get(
+      `https://bhuvan-app1.nrsc.gov.in/api/api_proximity/curl_village_geocode.php?village=changa&token=${apiKey}`
+    );
+    res.json(response.data);
+  } catch (error) {
+    res.status(500).json({ error: "Failed to fetch data" });
+    console.log(error.message);
+}
+}
