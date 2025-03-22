@@ -1,7 +1,12 @@
 import mongoose from 'mongoose';
 
+<<<<<<< HEAD
 const WeatherSchema = new mongoose.Schema(
   {
+=======
+const WeatherSchema = new mongoose.Schema({
+    village: { type: mongoose.Schema.Types.ObjectId, ref: 'Village', required: true }, // Reference to Village
+>>>>>>> 43e5dc84bbb2a1c1e6a961b4e219aa14d5207405
     coord: {
       lon: Number,
       lat: Number,
@@ -51,6 +56,10 @@ const WeatherSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
+<<<<<<< HEAD
 const Weather = mongoose.model('Weather', WeatherSchema);
 
 export default Weather;
+=======
+export default mongoose.model('Weather', WeatherSchema);
+>>>>>>> 43e5dc84bbb2a1c1e6a961b4e219aa14d5207405
