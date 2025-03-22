@@ -1,6 +1,6 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { FaSatellite, FaWhatsapp, FaChartLine, FaMapMarkedAlt, FaGithub, FaLinkedin, FaTwitter, FaRegFileAlt, FaShieldAlt, FaUsers } from 'react-icons/fa';
+import { FaSatellite, FaWhatsapp, FaChartLine, FaMapMarkedAlt, FaGithub, FaLinkedin, FaTwitter, FaRegFileAlt, FaShieldAlt, FaUsers, FaGlobe } from 'react-icons/fa';
 import { HiOutlineChartBar, HiMenu, HiX } from 'react-icons/hi';
 import { TbPlant, TbCloudRain, TbBug, TbSunset, TbCreditCard, TbChartBar } from 'react-icons/tb';
 import { MdOutlineWaterDrop, MdNotifications, MdOutlineInsights, MdOutlineMonetizationOn } from 'react-icons/md';
@@ -8,14 +8,28 @@ import { BsGraphUp, BsCalendarCheck, BsBank2, BsShield } from 'react-icons/bs';
 import { RiGovernmentLine, RiPlantLine, RiMoneyDollarCircleLine } from 'react-icons/ri';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import logo from '../assets/logo5.png';
+import { useTranslation } from 'react-i18next';
 // import Navbar from '../sections/Navbar';
 
-// Simplified Navbar component
+// Simplified Navbar component with Language Selector
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
+  const [langMenuOpen, setLangMenuOpen] = React.useState(false);
+  const { t, i18n } = useTranslation();
+  
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+    setLangMenuOpen(false);
+  };
+  
+  const languages = [
+    { code: 'en', name: 'English' },
+    { code: 'hi', name: 'हिन्दी' },
+    { code: 'gu', name: 'ગુજરાતી' }
+  ];
 
   return (
-    <nav className="justify-center items-center top-0 left-0 w-full z-50 bg-gray-900/90 backdrop-blur-md border-b border-emerald-800">
+    <nav className="fixed top-0 left-0 w-full z-50 bg-gray-900/90 backdrop-blur-md border-b border-emerald-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
@@ -24,20 +38,57 @@ const Navbar = () => {
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
-                <a href="#home" className="text-white hover:text-emerald-400 px-3 py-2 rounded-md text-sm font-medium">Home</a>
-                <a href="#data-integration" className="text-emerald-100 hover:text-emerald-400 px-3 py-2 rounded-md text-sm font-medium">Data Integration</a>
-                <a href="#credit-scoring" className="text-emerald-100 hover:text-emerald-400 px-3 py-2 rounded-md text-sm font-medium">Credit Scoring</a>
-                <a href="#user-access" className="text-emerald-100 hover:text-emerald-400 px-3 py-2 rounded-md text-sm font-medium">User Access</a>
-                <a href="#compliance" className="text-emerald-100 hover:text-emerald-400 px-3 py-2 rounded-md text-sm font-medium">Compliance</a>
+                <a href="#home" className="text-white hover:text-emerald-400 px-3 py-2 rounded-md text-sm font-medium">{t('navbar.home')}</a>
+                <a href="#data-integration" className="text-emerald-100 hover:text-emerald-400 px-3 py-2 rounded-md text-sm font-medium">{t('navbar.dataIntegration')}</a>
+                <a href="#credit-scoring" className="text-emerald-100 hover:text-emerald-400 px-3 py-2 rounded-md text-sm font-medium">{t('navbar.creditScoring')}</a>
+                <a href="#user-access" className="text-emerald-100 hover:text-emerald-400 px-3 py-2 rounded-md text-sm font-medium">{t('navbar.userAccess')}</a>
+                <a href="#compliance" className="text-emerald-100 hover:text-emerald-400 px-3 py-2 rounded-md text-sm font-medium">{t('navbar.compliance')}</a>
               </div>
             </div>
           </div>
-          <div className="hidden md:block">
+          <div className="hidden md:flex items-center space-x-4">
+            {/* Language Selector */}
+            <div className="relative">
+              <button 
+                onClick={() => setLangMenuOpen(!langMenuOpen)}
+                className="flex items-center text-emerald-100 hover:text-emerald-400 px-3 py-2 rounded-md text-sm font-medium"
+              >
+                <FaGlobe className="mr-2" />
+                {languages.find(lang => lang.code === i18n.language)?.name || 'English'}
+              </button>
+              
+              {/* Language Dropdown Menu */}
+              {langMenuOpen && (
+                <div className="absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-gray-800 ring-1 ring-black ring-opacity-5 z-50">
+                  <div className="py-1" role="menu" aria-orientation="vertical">
+                    {languages.map((language) => (
+                      <button
+                        key={language.code}
+                        onClick={() => changeLanguage(language.code)}
+                        className={`block w-full text-left px-4 py-2 text-sm ${i18n.language === language.code ? 'text-emerald-400 bg-gray-700' : 'text-emerald-100 hover:bg-gray-700'}`}
+                        role="menuitem"
+                      >
+                        {language.name}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+            
             <button className="bg-emerald-500 hover:bg-emerald-600 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors shadow-lg shadow-emerald-500/20">
-              Apply Now
+              {t('navbar.applyNow')}
             </button>
           </div>
-          <div className="md:hidden">
+          <div className="md:hidden flex items-center">
+            {/* Mobile Language Selector */}
+            <button
+              onClick={() => setLangMenuOpen(!langMenuOpen)}
+              className="inline-flex items-center justify-center p-2 rounded-md text-emerald-200 hover:text-white hover:bg-emerald-700 focus:outline-none mr-2"
+            >
+              <FaGlobe className="h-5 w-5" />
+            </button>
+            
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="inline-flex items-center justify-center p-2 rounded-md text-emerald-200 hover:text-white hover:bg-emerald-700 focus:outline-none"
@@ -51,31 +102,54 @@ const Navbar = () => {
       {/* Mobile menu */}
       <div className={`md:hidden ${mobileMenuOpen ? 'block' : 'hidden'}`}>
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-gray-900 border-b border-emerald-800">
-          <a href="#home" className="text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
-          <a href="#data-integration" className="text-emerald-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Data Integration</a>
-          <a href="#credit-scoring" className="text-emerald-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Credit Scoring</a>
-          <a href="#user-access" className="text-emerald-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium">User Access</a>
-          <a href="#compliance" className="text-emerald-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Compliance</a>
+          <a href="#home" className="text-white block px-3 py-2 rounded-md text-base font-medium">{t('navbar.home')}</a>
+          <a href="#data-integration" className="text-emerald-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium">{t('navbar.dataIntegration')}</a>
+          <a href="#credit-scoring" className="text-emerald-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium">{t('navbar.creditScoring')}</a>
+          <a href="#user-access" className="text-emerald-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium">{t('navbar.userAccess')}</a>
+          <a href="#compliance" className="text-emerald-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium">{t('navbar.compliance')}</a>
           <button className="mt-2 w-full bg-emerald-500 hover:bg-emerald-600 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors shadow-lg">
-            Apply Now
+            {t('navbar.applyNow')}
           </button>
         </div>
       </div>
+      
+      {/* Mobile Language Menu */}
+      {langMenuOpen && (
+        <div className="md:hidden absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-gray-800 ring-1 ring-black ring-opacity-5 z-50 mx-2">
+          <div className="py-1" role="menu" aria-orientation="vertical">
+            {languages.map((language) => (
+              <button
+                key={language.code}
+                onClick={() => changeLanguage(language.code)}
+                className={`block w-full text-left px-4 py-2 text-sm ${i18n.language === language.code ? 'text-emerald-400 bg-gray-700' : 'text-emerald-100 hover:bg-gray-700'}`}
+                role="menuitem"
+              >
+                {language.name}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
     </nav>
   );
 };
 
 const Home = () => {
+  const { t, i18n } = useTranslation();
+  
+  // Get the typewriter words from translation
+  const typewriterWords = t('hero.typewriter', { returnObjects: true });
+  
   const [text] = useTypewriter({
-    words: [
-      'Farmer-Focused Evaluation',
-      'Alternative Credit Scoring',
-      'Data-Driven Loan Approval',
-      'Fair Financial Access',
-    ],
+    words: typewriterWords,
     loop: true,
     delaySpeed: 2000,
   });
+
+  // Update typewriter when language changes
+  useEffect(() => {
+    // This will force the typewriter to restart with new language
+  }, [i18n.language]);
 
   return (
     <main className="w-full overflow-x-hidden bg-gray-900 text-white">
@@ -128,22 +202,22 @@ const Home = () => {
                 <Cursor cursorColor="#10b981" />
               </h1>
               <p className="text-lg sm:text-xl md:text-2xl text-emerald-100 mb-10 max-w-3xl mx-auto">
-                Revolutionizing agricultural finance with a holistic credit evaluation system that considers what truly matters for farmers
+                {t('hero.subtitle')}
               </p>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="bg-emerald-500 hover:bg-emerald-600 text-white px-10 py-4 rounded-full text-lg font-semibold transition-all shadow-lg shadow-emerald-500/20 hover:shadow-emerald-500/40"
               >
-                Get Started
+                {t('hero.getStarted')}
               </motion.button>
               
               {/* Statistics cards */}
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16 max-w-4xl mx-auto">
                 {[
-                  { value: "40%", label: "Higher Approval Rate" },
-                  { value: "60+", label: "Data Points Analyzed" },
-                  { value: "5x", label: "More Accurate Risk Assessment" }
+                  { value: "40%", label: t('hero.stats.approvalRate') },
+                  { value: "60+", label: t('hero.stats.dataPoints') },
+                  { value: "5x", label: t('hero.stats.riskAssessment') }
                 ].map((stat, index) => (
                   <motion.div
                     key={index}
@@ -179,26 +253,26 @@ const Home = () => {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl font-bold mb-4 text-emerald-400">Comprehensive Data Integration</h2>
-            <p className="text-emerald-100 max-w-2xl mx-auto">Incorporating non-traditional data sources for a holistic view of farmer creditworthiness</p>
+            <h2 className="text-4xl font-bold mb-4 text-emerald-400">{t('dataIntegration.title')}</h2>
+            <p className="text-emerald-100 max-w-2xl mx-auto">{t('dataIntegration.subtitle')}</p>
           </motion.div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {[
               {
                 icon: FaMapMarkedAlt,
-                title: "GIS & Land Data",
-                description: "Satellite imagery and land quality assessment to evaluate farm value and productivity potential"
+                title: t('dataIntegration.sections.gis.title'),
+                description: t('dataIntegration.sections.gis.description')
               },
               {
                 icon: TbCloudRain,
-                title: "Weather Patterns",
-                description: "Historical and forecasted weather data to assess climate risks and seasonal impacts"
+                title: t('dataIntegration.sections.weather.title'),
+                description: t('dataIntegration.sections.weather.description')
               },
               {
                 icon: RiPlantLine,
-                title: "Crop & Soil Health",
-                description: "Soil composition analysis and crop yield history to determine production capacity"
+                title: t('dataIntegration.sections.crop.title'),
+                description: t('dataIntegration.sections.crop.description')
               }
             ].map((item, index) => (
               <motion.div
@@ -274,21 +348,21 @@ const Home = () => {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl font-bold mb-4 text-emerald-400">AI-Powered Credit Scoring</h2>
-            <p className="text-emerald-100 max-w-2xl mx-auto">Our proprietary algorithm evaluates farmers based on what truly matters</p>
+            <h2 className="text-4xl font-bold mb-4 text-emerald-400">{t('creditScoring.title')}</h2>
+            <p className="text-emerald-100 max-w-2xl mx-auto">{t('creditScoring.subtitle')}</p>
           </motion.div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {[
               {
-                title: "Transparent Risk Assessment",
-                description: "Clear, explainable credit scoring that financial institutions can trust and farmers can understand",
-                metrics: ["Multi-factor Analysis", "Explainable AI", "Risk Categorization"]
+                title: t('creditScoring.sections.riskAssessment.title'),
+                description: t('creditScoring.sections.riskAssessment.description'),
+                metrics: t('creditScoring.sections.riskAssessment.metrics', { returnObjects: true })
               },
               {
-                title: "Predictive Yield Analysis",
-                description: "ML-based forecasting of farm production capacity and income potential",
-                metrics: ["Seasonal Projections", "Market Value Estimation", "Repayment Capacity"]
+                title: t('creditScoring.sections.yieldAnalysis.title'),
+                description: t('creditScoring.sections.yieldAnalysis.description'),
+                metrics: t('creditScoring.sections.yieldAnalysis.metrics', { returnObjects: true })
               }
             ].map((item, index) => (
               <motion.div
@@ -350,31 +424,31 @@ const Home = () => {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl font-bold mb-4 text-emerald-400">Seamless User Experience</h2>
-            <p className="text-emerald-100 max-w-2xl mx-auto">Designed for accessibility by farmers, financial institutions, and NBFCs</p>
+            <h2 className="text-4xl font-bold mb-4 text-emerald-400">{t('userAccess.title')}</h2>
+            <p className="text-emerald-100 max-w-2xl mx-auto">{t('userAccess.subtitle')}</p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {
                 icon: FaUsers,
-                title: "Farmer Portal",
-                description: "Simple interface for farmers to submit applications and track status"
+                title: t('userAccess.sections.farmerPortal.title'),
+                description: t('userAccess.sections.farmerPortal.description')
               },
               {
                 icon: BsBank2,
-                title: "Lender Dashboard",
-                description: "Comprehensive risk assessment tools for financial institutions"
+                title: t('userAccess.sections.lenderDashboard.title'),
+                description: t('userAccess.sections.lenderDashboard.description')
               },
               {
                 icon: MdOutlineInsights,
-                title: "Credit Insights",
-                description: "Detailed reports explaining credit decisions and improvement areas"
+                title: t('userAccess.sections.creditInsights.title'),
+                description: t('userAccess.sections.creditInsights.description')
               },
               {
                 icon: FaWhatsapp,
-                title: "Mobile Accessibility",
-                description: "WhatsApp integration for notifications and updates in rural areas"
+                title: t('userAccess.sections.mobileAccess.title'),
+                description: t('userAccess.sections.mobileAccess.description')
               }
             ].map((item, index) => (
               <motion.div
@@ -434,26 +508,26 @@ const Home = () => {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl font-bold mb-4 text-emerald-400">Regulatory Compliance & Adaptability</h2>
-            <p className="text-emerald-100 max-w-2xl mx-auto">Built to meet financial regulations while adapting to diverse agricultural environments</p>
+            <h2 className="text-4xl font-bold mb-4 text-emerald-400">{t('compliance.title')}</h2>
+            <p className="text-emerald-100 max-w-2xl mx-auto">{t('compliance.subtitle')}</p>
           </motion.div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {[
               {
-                title: "Data Privacy & Security",
-                description: "Robust protection of farmer and financial data in compliance with all relevant regulations",
-                metrics: ["End-to-end Encryption", "Secure Access Controls", "Regular Audits"]
+                title: t('compliance.sections.dataSecurity.title'),
+                description: t('compliance.sections.dataSecurity.description'),
+                metrics: t('compliance.sections.dataSecurity.metrics', { returnObjects: true })
               },
               {
-                title: "Regulatory Compliance",
-                description: "Adherence to all financial regulations and reporting requirements for agricultural lending",
-                metrics: ["KYC Integration", "Compliance Reporting", "Audit Trails"]
+                title: t('compliance.sections.regulatory.title'),
+                description: t('compliance.sections.regulatory.description'),
+                metrics: t('compliance.sections.regulatory.metrics', { returnObjects: true })
               },
               {
-                title: "Regional Adaptability",
-                description: "Flexible system that adapts to different crops, climates, and regional farming practices",
-                metrics: ["Region-specific Models", "Local Weather Integration", "Crop Customization"]
+                title: t('compliance.sections.regional.title'),
+                description: t('compliance.sections.regional.description'),
+                metrics: t('compliance.sections.regional.metrics', { returnObjects: true })
               }
             ].map((item, index) => (
               <motion.div
@@ -499,9 +573,9 @@ const Home = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">Ready to Transform Agricultural Finance?</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">{t('cta.title')}</h2>
               <p className="text-emerald-100 mb-8 text-lg">
-                Join our mission to create fair financial opportunities for farmers through data-driven credit evaluation
+                {t('cta.subtitle')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <motion.button
@@ -509,14 +583,14 @@ const Home = () => {
                   whileTap={{ scale: 0.95 }}
                   className="bg-white text-emerald-800 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold shadow-lg"
                 >
-                  Apply for Credit
+                  {t('cta.applyCredit')}
                 </motion.button>
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className="bg-transparent text-white border-2 border-white hover:bg-white/10 px-8 py-3 rounded-lg font-semibold"
                 >
-                  Partner With Us
+                  {t('cta.partnerWithUs')}
                 </motion.button>
               </div>
             </motion.div>
@@ -532,7 +606,7 @@ const Home = () => {
               <div className="col-span-1 md:col-span-2">
                 <h3 className="text-2xl font-bold text-emerald-400 mb-4">FarmCredit</h3>
                 <p className="text-emerald-100 mb-4">
-                  Revolutionizing agricultural finance with alternative credit scoring that understands farmers' unique needs.
+                  {t('footer.description')}
                 </p>
                 <div className="flex space-x-4">
                   <motion.a
@@ -560,45 +634,45 @@ const Home = () => {
               </div>
               
               <div>
-                <h4 className="text-lg font-semibold mb-4 text-emerald-300">Quick Links</h4>
+                <h4 className="text-lg font-semibold mb-4 text-emerald-300">{t('footer.quickLinks')}</h4>
                 <ul className="space-y-2">
                   <li>
-                    <a href="#" className="text-emerald-100 hover:text-emerald-400">About Us</a>
+                    <a href="#" className="text-emerald-100 hover:text-emerald-400">{t('footer.links.aboutUs')}</a>
                   </li>
                   <li>
-                    <a href="#" className="text-emerald-100 hover:text-emerald-400">How It Works</a>
+                    <a href="#" className="text-emerald-100 hover:text-emerald-400">{t('footer.links.howItWorks')}</a>
                   </li>
                   <li>
-                    <a href="#" className="text-emerald-100 hover:text-emerald-400">For Lenders</a>
+                    <a href="#" className="text-emerald-100 hover:text-emerald-400">{t('footer.links.forLenders')}</a>
                   </li>
                   <li>
-                    <a href="#" className="text-emerald-100 hover:text-emerald-400">For Farmers</a>
+                    <a href="#" className="text-emerald-100 hover:text-emerald-400">{t('footer.links.forFarmers')}</a>
                   </li>
                 </ul>
               </div>
 
               <div>
-                <h4 className="text-lg font-semibold mb-4 text-emerald-300">Resources</h4>
+                <h4 className="text-lg font-semibold mb-4 text-emerald-300">{t('footer.resources')}</h4>
                 <ul className="space-y-2">
                   <li>
-                    <a href="#" className="text-emerald-100 hover:text-emerald-400">Documentation</a>
+                    <a href="#" className="text-emerald-100 hover:text-emerald-400">{t('footer.links.documentation')}</a>
                   </li>
                   <li>
-                    <a href="#" className="text-emerald-100 hover:text-emerald-400">Financial Education</a>
+                    <a href="#" className="text-emerald-100 hover:text-emerald-400">{t('footer.links.financialEducation')}</a>
                   </li>
                   <li>
-                    <a href="#" className="text-emerald-100 hover:text-emerald-400">Success Stories</a>
+                    <a href="#" className="text-emerald-100 hover:text-emerald-400">{t('footer.links.successStories')}</a>
                   </li>
                   <li>
-                    <a href="#" className="text-emerald-100 hover:text-emerald-400">Support</a>
+                    <a href="#" className="text-emerald-100 hover:text-emerald-400">{t('footer.links.support')}</a>
                   </li>
                 </ul>
               </div>
             </div>
 
             <div className="mt-12 pt-8 border-t border-emerald-800/50 text-center text-emerald-100">
-              <p>&copy; {new Date().getFullYear()} FarmCredit. All rights reserved.</p>
-              <p className="mt-2 text-sm">Empowering farmers through fair financial access.</p>
+              <p>&copy; {new Date().getFullYear()} FarmCredit. {t('footer.copyright')}</p>
+              <p className="mt-2 text-sm">{t('footer.tagline')}</p>
             </div>
           </div>
         </div>
