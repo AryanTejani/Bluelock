@@ -6,6 +6,8 @@ import dataRoutes from './routes/data.routes.js';
 import authRoutes from './routes/auth.routes.js';
 import connectDB from './Db/connectDb.js';
 import authRoutes2 from './routes/auth2.route.js';
+import creditRoutes from "./routes/credit.routes.js"
+import getAllRoutes from "./routes/getall.controller+routes.js"
 // Load environment variables
 dotenv.config();
 
@@ -21,6 +23,8 @@ connectDB();
 app.use('/api', dataRoutes);
 app.use('/auth', authRoutes);
 app.use('/auth2',authRoutes2)
+app.use('/credit',creditRoutes)
+app.use('/users',getAllRoutes)
 // Sample Route
 app.get('/', (req, res) => {
   res.send('Server is running...');

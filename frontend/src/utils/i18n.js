@@ -9,6 +9,8 @@ import hiTranslations from './locales/hi.json';
 import guTranslations from './locales/gu.json';
 import taTranslations from './locales/ta.json'
 import teTranslations from './locales/te.json'
+import paTranslations from './locales/pa.json'
+import maTranslations from './locales/ma.json'
 // Resources object containing all translations
 const resources = {
   en: {
@@ -25,6 +27,12 @@ const resources = {
   },
   te: {
     translation: teTranslations
+  },
+  pa: {
+    translation: paTranslations
+  },
+  ma:{
+    translation:maTranslations
   }
 };
 

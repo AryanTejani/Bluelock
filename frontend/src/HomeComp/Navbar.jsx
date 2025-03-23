@@ -27,6 +27,8 @@ const Navbar = () => {
     { code: "en", name: "English" },
     { code: "hi", name: "हिन्दी" },
     { code: "gu", name: "ગુજરાતી" },
+    { code: "pa", name: "ਪੰਜਾਬੀ" },
+    { code: "ma", name: "मराठी" },
     { code: "ta", name: "தமிழ்" },
     { code: "te", name: "తెలుగు" },
   ];
@@ -63,16 +65,18 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
+              <Link to="/">
               <img className="h-10 w-auto" src={logo} alt="FarmCredit Logo" />
+              </Link>
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
-                <a
-                  href="#home"
+                <Link
+                  to="/"
                   className="text-white hover:text-emerald-400 px-3 py-2 rounded-md text-sm font-medium"
                 >
                   {t("navbar.home")}
-                </a>
+                </Link>
                 <a
                   href="#data-integration"
                   className="text-emerald-100 hover:text-emerald-400 px-3 py-2 rounded-md text-sm font-medium"
