@@ -197,6 +197,7 @@ export const resetPassword = asyncHandler(async (req, res, next) => {
 
 // sending mail for otp verification
 export const getVarified = async (req, res) => {
+    console.log("Request body:", req.body); 
     const { emailId } = req.body;
     const user = await User.findOne({ email: emailId });
     if (!user) throw new ApiError("User not found");
