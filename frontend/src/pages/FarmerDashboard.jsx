@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import logo from "../assets/mainlogo.png"
 
 const FarmerDashboard = () => {
   const [language, setLanguage] = useState("english");
@@ -377,9 +378,9 @@ const FarmerDashboard = () => {
         <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
           <div className="flex items-center mb-6">
             <img
-              src="/api/placeholder/64/64"
+              src={logo}
               alt="Farmer icon"
-              className="mr-4"
+              className="mr-4 w-[80px] h-14"
             />
             <h1 className="text-3xl font-bold text-green-700">{t.title}</h1>
           </div>
