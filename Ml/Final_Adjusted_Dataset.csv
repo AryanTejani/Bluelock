@@ -1,0 +1,1001 @@
+State,City,Crop,pH soil,Area (ha),avgTemp,Rainfall (mm),Yield (ton/ha),Avg_smlvl,Soil Type,Nutrient Level,Credit Score,Risk Category,Risk Category Encoded,Predicted Risk Category,Risk Score (%)
+Gujarat,Ahmedabad,Bajra,4.0,41701,32,541,7.95759913343362,14.0,Sandy Loam,Low,697,Medium Risk,2,2,69
+Gujarat,Ahmedabad,Groundnut,4.0,501,32,541,5.876920289594993,11.0,Mixed Soil,Low,507,Medium Risk,2,2,69
+Gujarat,Ahmedabad,Jowar,4.0,42501,32,541,3.070141987929195,22.0,Sandy Loam,Low,580,Medium Risk,2,2,51
+Gujarat,Ahmedabad,Jowar,4.0,2001,24,19,4.481928677763606,19.0,Mixed Soil,Low,865,Very Low Risk,0,0,1
+Gujarat,Ahmedabad,Wheat,4.0,96001,24,19,4.599187501661062,18.0,Sandy Loam,Low,721,Low Risk,1,1,29
+Gujarat,Ahmedabad,Bajra,4.0,12201,31,95,2.9609462041681924,16.0,Sandy Soil,Low,806,Low Risk,1,1,23
+Gujarat,Ahmedabad,Groundnut,4.0,101,31,95,6.1102626185023885,14.0,Sandy Soil,Low,850,Very Low Risk,0,0,0
+Gujarat,Ahmedabad,Maize,5.0,601,29,201,5.169269780847585,11.0,Silty Clay,High,786,Low Risk,1,1,34
+Gujarat,Ahmedabad,Rice,5.0,75301,29,201,7.105963235508529,9.0,Silty Clay,High,531,Medium Risk,2,2,54
+Gujarat,Ahmedabad,Sugarcane,5.0,601,29,201,7.385858332564909,23.0,Silty Clay,High,702,Low Risk,1,1,33
+Gujarat,Ahmedabad,Bajra,5.0,37301,30,611,4.358127432490601,17.0,Silty Clay,High,322,High Risk,3,3,98
+Gujarat,Ahmedabad,Groundnut,6.0,701,30,611,6.69838384736459,16.0,Mixed Soil,High,693,Medium Risk,2,2,66
+Gujarat,Ahmedabad,Jowar,4.0,58401,30,611,5.16414234039431,14.0,Sandy Soil,Low,445,High Risk,3,3,76
+Gujarat,Ahmedabad,Maize,4.0,1301,30,611,7.431282311637713,14.0,Sandy Soil,Low,633,Medium Risk,2,2,55
+Gujarat,Ahmedabad,Rice,5.0,52201,30,611,7.219512563620706,14.0,Sandy Soil,Low,330,High Risk,3,3,98
+Gujarat,Ahmedabad,Jowar,4.0,2501,24,15,3.834442377814762,12.0,Sandy Soil,Low,885,Very Low Risk,0,0,10
+Gujarat,Ahmedabad,Wheat,4.0,91601,24,15,4.0693706099070965,11.0,Sandy Soil,Low,716,Low Risk,1,1,32
+Gujarat,Ahmedabad,Bajra,5.0,11101,31,96,8.431957569614038,20.0,Mixed Soil,High,804,Low Risk,1,1,29
+Gujarat,Ahmedabad,Groundnut,5.0,401,31,96,6.1379772594063065,19.0,Mixed Soil,High,879,Very Low Risk,0,0,13
+Gujarat,Ahmedabad,Sugarcane,5.0,601,28,196,7.132469606265317,18.0,Mixed Soil,Medium,821,Low Risk,1,1,23
+Gujarat,Ahmedabad,Bajra,5.0,36601,30,585,3.5674807853569064,16.0,Mixed Soil,Medium,585,Medium Risk,2,2,59
+Gujarat,Ahmedabad,Groundnut,4.0,1201,30,585,8.57624035972185,17.0,Mixed Soil,Medium,647,Medium Risk,2,2,65
+Gujarat,Ahmedabad,Jowar,4.0,64201,30,585,4.9465622765056905,15.0,Mixed Soil,Low,422,High Risk,3,3,77
+Gujarat,Ahmedabad,Maize,4.0,2401,30,585,2.613855364028651,15.0,Mixed Soil,Medium,538,Medium Risk,2,2,57
+Gujarat,Ahmedabad,Rice,4.0,75101,30,585,7.616838034822178,14.0,Sandy Loam,Medium,468,High Risk,3,3,80
+Gujarat,Ahmedabad,Jowar,4.0,2801,23,12,3.922862756595993,19.0,Mixed Soil,Medium,870,Very Low Risk,0,0,12
+Gujarat,Ahmedabad,Wheat,5.0,84001,23,12,5.575656734988272,28.0,Mixed Soil,Medium,840,Low Risk,1,1,32
+Gujarat,Ahmedabad,Bajra,4.0,11001,30,80,7.766830691027979,24.0,Sandy Soil,Low,732,Low Risk,1,1,31
+Gujarat,Ahmedabad,Groundnut,4.0,401,30,80,6.020757520591062,23.0,Sandy Soil,Low,862,Very Low Risk,0,0,8
+Gujarat,Ahmedabad,Sugarcane,4.0,601,27,205,4.310784128483893,21.0,Sandy Soil,Low,771,Low Risk,1,1,26
+Gujarat,Ahmedabad,Bajra,4.0,36301,29,574,4.131827240050535,20.0,Sandy Soil,Low,684,Medium Risk,2,2,59
+Gujarat,Ahmedabad,Groundnut,4.0,701,29,574,7.788594972221771,19.0,Sandy Soil,Low,664,Medium Risk,2,2,65
+Gujarat,Ahmedabad,Jowar,5.0,9601,29,574,6.152285495921504,18.0,Mixed Soil,Medium,601,Medium Risk,2,2,59
+Gujarat,Ahmedabad,Maize,5.0,501,29,574,3.447061792085914,18.0,Silty Clay,High,530,Medium Risk,2,2,53
+Gujarat,Ahmedabad,Rice,5.0,84101,29,574,9.35092092260362,16.0,Silty Clay,High,659,Medium Risk,2,2,56
+Gujarat,Ahmedabad,Jowar,5.0,301,23,14,8.042743162203632,14.0,Silty Clay,High,862,Very Low Risk,0,0,1
+Gujarat,Ahmedabad,Wheat,5.0,48701,23,14,8.993683263008359,15.0,Silty Clay,High,798,Low Risk,1,1,26
+Gujarat,Ahmedabad,Bajra,5.0,9101,30,87,2.3235303304070403,13.0,Sandy Soil,Low,832,Low Risk,1,1,25
+Gujarat,Ahmedabad,Groundnut,4.0,101,30,87,3.401826037590092,13.0,Mixed Soil,Low,854,Very Low Risk,0,0,9
+Gujarat,Ahmedabad,Sugarcane,5.0,801,28,211,7.644422507319347,15.0,Mixed Soil,Low,673,Medium Risk,2,2,62
+Gujarat,Ahmedabad,Bajra,5.0,33501,30,595,8.147276309172657,15.0,Mixed Soil,Medium,439,High Risk,3,3,73
+Gujarat,Ahmedabad,Groundnut,5.0,1301,30,595,4.411893204838835,14.0,Mixed Soil,Medium,617,Medium Risk,2,2,64
+Gujarat,Ahmedabad,Maize,4.0,1501,30,595,4.852004696649692,16.0,Mixed Soil,Low,568,Medium Risk,2,2,69
+Gujarat,Ahmedabad,Rice,4.0,82001,30,595,6.814359653355507,16.0,Mixed Soil,Low,360,High Risk,3,3,87
+Gujarat,Ahmedabad,Jowar,4.0,101,22,10,5.388223433761785,16.0,Mixed Soil,Low,896,Very Low Risk,0,0,4
+Gujarat,Ahmedabad,Wheat,4.0,81001,22,10,7.419013244574311,16.0,Mixed Soil,Low,726,Low Risk,1,1,24
+Gujarat,Ahmedabad,Bajra,4.0,7901,31,81,4.623638751914587,16.0,Mixed Soil,Low,851,Very Low Risk,0,0,7
+Gujarat,Ahmedabad,Groundnut,4.0,101,31,81,9.46784265159362,16.0,Mixed Soil,Low,874,Very Low Risk,0,0,9
+Gujarat,Ahmedabad,Sugarcane,4.0,501,28,207,2.242025782643446,16.0,Mixed Soil,Low,840,Low Risk,1,1,34
+Gujarat,Ahmedabad,Bajra,4.0,38201,30,605,7.015266396081837,16.0,Mixed Soil,Low,325,High Risk,3,3,98
+Gujarat,Ahmedabad,Groundnut,4.0,2101,30,605,4.302885386064634,16.0,Mixed Soil,Low,597,Medium Risk,2,2,52
+Gujarat,Ahmedabad,Maize,4.0,2701,30,605,3.1273209893522047,16.0,Mixed Soil,Low,542,Medium Risk,2,2,69
+Gujarat,Ahmedabad,Rice,4.0,47501,30,605,5.615187142886284,16.0,Mixed Soil,Low,459,High Risk,3,3,89
+Gujarat,Ahmedabad,Jowar,4.0,201,22,12,4.2461902758947065,16.0,Mixed Soil,Low,852,Very Low Risk,0,0,1
+Gujarat,Ahmedabad,Wheat,4.0,79501,22,12,9.857855921307394,16.0,Mixed Soil,Low,757,Low Risk,1,1,34
+Gujarat,Ahmedabad,Bajra,4.0,2701,30,76,9.808595055487013,16.0,Mixed Soil,Low,894,Very Low Risk,0,0,9
+Gujarat,Ahmedabad,Groundnut,4.0,101,30,76,8.56021712718797,16.0,Mixed Soil,Low,860,Very Low Risk,0,0,13
+Gujarat,Ahmedabad,Sugarcane,4.0,501,27,214,9.854762861163316,16.0,Mixed Soil,Low,748,Low Risk,1,1,30
+Gujarat,Ahmedabad,Bajra,4.0,29301,31,599,4.305730674136449,16.0,Mixed Soil,Low,671,Medium Risk,2,2,66
+Gujarat,Ahmedabad,Groundnut,4.0,101,31,599,6.857720931926844,16.0,Mixed Soil,Low,618,Medium Risk,2,2,63
+Gujarat,Ahmedabad,Maize,4.0,701,31,599,2.023846502987973,16.0,Mixed Soil,Low,534,Medium Risk,2,2,51
+Gujarat,Ahmedabad,Rice,4.0,83201,31,599,2.03322990852252,16.0,Mixed Soil,Low,442,High Risk,3,3,75
+Gujarat,Ahmedabad,Wheat,4.0,111401,24,9,4.19304119788379,16.0,Mixed Soil,Low,774,Low Risk,1,1,32
+Gujarat,Ahmedabad,Bajra,4.0,2001,30,90,7.449099417466333,16.0,Mixed Soil,Low,855,Very Low Risk,0,0,13
+Gujarat,Ahmedabad,Sugarcane,4.0,301,28,214,3.168865358616274,16.0,Mixed Soil,Low,712,Low Risk,1,1,30
+Gujarat,Ahmedabad,Bajra,4.0,13201,29,593,5.462436262410809,16.0,Mixed Soil,Low,528,Medium Risk,2,2,56
+Gujarat,Ahmedabad,Groundnut,4.0,101,29,593,2.461217988389164,16.0,Mixed Soil,Low,630,Medium Risk,2,2,64
+Gujarat,Ahmedabad,Jowar,4.0,1401,29,593,5.589548606069204,16.0,Mixed Soil,Low,666,Medium Risk,2,2,58
+Gujarat,Ahmedabad,Rice,4.0,78901,29,593,4.3860987485767735,16.0,Mixed Soil,Low,460,High Risk,3,3,71
+Gujarat,Ahmedabad,Wheat,4.0,124301,23,17,4.743641216280228,16.0,Mixed Soil,Low,694,Medium Risk,2,2,60
+Gujarat,Ahmedabad,Bajra,4.0,1501,31,96,6.029138491961451,16.0,Mixed Soil,Low,886,Very Low Risk,0,0,1
+Gujarat,Ahmedabad,Rice,4.0,101,31,96,3.5479148084296632,16.0,Mixed Soil,Low,862,Very Low Risk,0,0,7
+Gujarat,Ahmedabad,Sugarcane,4.0,101,28,201,5.104117264699223,16.0,Mixed Soil,Low,785,Low Risk,1,1,33
+Gujarat,Ahmedabad,Bajra,4.0,19301,31,597,2.7879131481668544,16.0,Mixed Soil,Low,558,Medium Risk,2,2,53
+Gujarat,Ahmedabad,Groundnut,4.0,101,31,597,8.257072011603395,16.0,Mixed Soil,Low,619,Medium Risk,2,2,52
+Gujarat,Ahmedabad,Jowar,4.0,801,31,597,2.755679560968175,16.0,Mixed Soil,Low,551,Medium Risk,2,2,67
+Gujarat,Ahmedabad,Maize,4.0,201,31,597,8.91467145365554,16.0,Mixed Soil,Low,563,Medium Risk,2,2,58
+Gujarat,Ahmedabad,Rice,4.0,94801,31,597,9.937270055477615,16.0,Mixed Soil,Low,468,High Risk,3,3,77
+Gujarat,Ahmedabad,Wheat,4.0,108001,23,17,5.396632636815,16.0,Mixed Soil,Low,726,Low Risk,1,1,32
+Gujarat,Ahmedabad,Bajra,4.0,2901,30,99,8.907125323386715,16.0,Mixed Soil,Low,795,Low Risk,1,1,32
+Gujarat,Ahmedabad,Rice,4.0,1001,30,99,4.547527883447785,16.0,Mixed Soil,Low,851,Very Low Risk,0,0,11
+Gujarat,Ahmedabad,Sugarcane,4.0,101,28,207,8.483852824195804,16.0,Mixed Soil,Low,732,Low Risk,1,1,24
+Gujarat,Ahmedabad,Bajra,4.0,23501,30,500,8.702642695917492,16.0,Mixed Soil,Low,592,Medium Risk,2,2,60
+Gujarat,Ahmedabad,Groundnut,4.0,201,30,500,6.437590826701073,16.0,Mixed Soil,Low,694,Medium Risk,2,2,58
+Gujarat,Ahmedabad,Rice,4.0,97301,30,500,5.361194076920731,16.0,Mixed Soil,Low,381,High Risk,3,3,94
+Gujarat,Ahmedabad,Jowar,4.0,1301,23,16,7.983361797544833,16.0,Mixed Soil,Low,880,Very Low Risk,0,0,10
+Gujarat,Ahmedabad,Wheat,4.0,132401,23,16,2.651063297202961,16.0,Mixed Soil,Low,549,Medium Risk,2,2,57
+Gujarat,Ahmedabad,Bajra,4.0,1101,31,94,2.0645952406374057,16.0,Mixed Soil,Low,854,Very Low Risk,0,0,2
+Gujarat,Ahmedabad,Groundnut,4.0,101,31,94,5.622208380325744,16.0,Mixed Soil,Low,860,Very Low Risk,0,0,5
+Gujarat,Ahmedabad,Rice,4.0,2801,31,94,4.03215200738861,16.0,Mixed Soil,Low,896,Very Low Risk,0,0,12
+Gujarat,Ahmedabad,Bajra,4.0,21201,29,535,4.330192397172332,16.0,Mixed Soil,Low,634,Medium Risk,2,2,54
+Gujarat,Ahmedabad,Groundnut,4.0,101,29,535,9.926232736289435,16.0,Mixed Soil,Low,644,Medium Risk,2,2,60
+Gujarat,Ahmedabad,Jowar,4.0,5001,29,535,8.104873105537655,16.0,Mixed Soil,Low,626,Medium Risk,2,2,60
+Gujarat,Ahmedabad,Rice,4.0,105201,29,535,7.00597446352328,16.0,Mixed Soil,Low,396,High Risk,3,3,91
+Gujarat,Ahmedabad,Wheat,4.0,150201,23,15,8.902788418790209,16.0,Mixed Soil,Low,623,Medium Risk,2,2,66
+Gujarat,Ahmedabad,Bajra,4.0,1201,30,103,5.36803638122677,16.0,Mixed Soil,Low,783,Low Risk,1,1,30
+Gujarat,Ahmedabad,Groundnut,4.0,101,30,103,7.502486724693413,16.0,Mixed Soil,Low,853,Very Low Risk,0,0,1
+Gujarat,Ahmedabad,Rice,4.0,2801,30,103,2.25957621976697,16.0,Mixed Soil,Low,846,Low Risk,1,1,28
+Gujarat,Ahmedabad,Sugarcane,4.0,101,27,220,5.204527805987213,16.0,Mixed Soil,Low,792,Low Risk,1,1,27
+Gujarat,Ahmedabad,Bajra,4.0,15001,30,504,5.199816621882936,16.0,Mixed Soil,Low,582,Medium Risk,2,2,60
+Gujarat,Ahmedabad,Groundnut,4.0,201,30,504,7.878137014809012,16.0,Mixed Soil,Low,661,Medium Risk,2,2,51
+Gujarat,Ahmedabad,Jowar,4.0,12801,30,504,9.287433551248789,16.0,Mixed Soil,Low,629,Medium Risk,2,2,52
+Gujarat,Ahmedabad,Rice,4.0,96101,30,504,5.3831646492391085,16.0,Mixed Soil,Low,382,High Risk,3,3,99
+Gujarat,Ahmedabad,Wheat,4.0,140801,22,19,2.056542291071476,16.0,Mixed Soil,Low,823,Low Risk,1,1,31
+Gujarat,Ahmedabad,Bajra,4.0,1401,31,98,6.941726086857432,16.0,Mixed Soil,Low,889,Very Low Risk,0,0,3
+Gujarat,Ahmedabad,Groundnut,4.0,201,31,98,4.280621575255243,16.0,Mixed Soil,Low,885,Very Low Risk,0,0,5
+Gujarat,Ahmedabad,Rice,4.0,2301,31,98,9.692791827080612,16.0,Mixed Soil,Low,837,Low Risk,1,1,30
+Gujarat,Ahmedabad,Sugarcane,4.0,101,28,214,3.9547028865210505,16.0,Mixed Soil,Low,748,Low Risk,1,1,28
+Gujarat,Ahmedabad,Bajra,4.0,12701,30,517,8.466314458313335,16.0,Mixed Soil,Low,565,Medium Risk,2,2,57
+Gujarat,Ahmedabad,Groundnut,4.0,101,30,517,4.670924003139721,16.0,Mixed Soil,Low,655,Medium Risk,2,2,66
+Gujarat,Ahmedabad,Maize,4.0,301,30,517,3.505632172281432,16.0,Mixed Soil,Low,682,Medium Risk,2,2,53
+Gujarat,Ahmedabad,Rice,4.0,83701,30,517,7.940600355611992,16.0,Mixed Soil,Low,456,High Risk,3,3,87
+Gujarat,Ahmedabad,Wheat,4.0,91501,23,15,2.6160815986511867,16.0,Mixed Soil,Low,608,Medium Risk,2,2,65
+Gujarat,Ahmedabad,Bajra,4.0,901,30,106,5.478882774315191,16.0,Mixed Soil,Low,777,Low Risk,1,1,27
+Gujarat,Ahmedabad,Rice,4.0,5301,30,106,2.5058269512638125,16.0,Mixed Soil,Low,812,Low Risk,1,1,33
+Gujarat,Ahmedabad,Sugarcane,4.0,101,27,241,9.528418807089656,16.0,Mixed Soil,Low,849,Low Risk,1,1,31
+Gujarat,Ahmedabad,Bajra,4.0,12801,30,494,5.918436847334961,16.0,Mixed Soil,Low,615,Medium Risk,2,2,56
+Gujarat,Ahmedabad,Groundnut,4.0,101,30,494,3.658403537729458,16.0,Mixed Soil,Low,685,Medium Risk,2,2,55
+Gujarat,Ahmedabad,Jowar,4.0,201,30,494,2.1640061084773503,16.0,Mixed Soil,Low,527,Medium Risk,2,2,57
+Gujarat,Ahmedabad,Maize,4.0,101,30,494,2.346617242731779,16.0,Mixed Soil,Low,526,Medium Risk,2,2,64
+Gujarat,Ahmedabad,Rice,4.0,103501,30,494,3.0754713299303127,16.0,Mixed Soil,Low,450,High Risk,3,3,80
+Gujarat,Ahmedabad,Wheat,4.0,230401,23,6,6.546390978143635,16.0,Mixed Soil,Low,386,High Risk,3,3,93
+Gujarat,Ahmedabad,Bajra,4.0,1801,30,75,2.4103283998333813,16.0,Mixed Soil,Low,898,Very Low Risk,0,0,13
+Gujarat,Ahmedabad,Rice,4.0,10001,30,75,8.196770067117146,16.0,Mixed Soil,Low,817,Low Risk,1,1,21
+Gujarat,Ahmedabad,Sugarcane,4.0,101,28,192,7.890293732332294,16.0,Mixed Soil,Low,827,Low Risk,1,1,21
+Gujarat,Ahmedabad,Bajra,4.0,12901,29,521,9.752751312554942,16.0,Mixed Soil,Low,653,Medium Risk,2,2,67
+Gujarat,Ahmedabad,Groundnut,4.0,201,29,521,6.096094523825902,16.0,Mixed Soil,Low,646,Medium Risk,2,2,56
+Gujarat,Ahmedabad,Rice,4.0,119001,29,521,4.313759797746958,16.0,Mixed Soil,Low,484,High Risk,3,3,74
+Gujarat,Ahmedabad,Jowar,4.0,9001,23,12,6.545190520726655,16.0,Mixed Soil,Low,882,Very Low Risk,0,0,0
+Gujarat,Ahmedabad,Wheat,4.0,189801,23,12,7.573746507565234,16.0,Mixed Soil,Low,617,Medium Risk,2,2,52
+Gujarat,Ahmedabad,Bajra,4.0,3501,30,95,5.985690052225969,16.0,Mixed Soil,Low,846,Low Risk,1,1,33
+Gujarat,Ahmedabad,Rice,4.0,14101,30,95,4.825530139444426,16.0,Mixed Soil,Low,776,Low Risk,1,1,33
+Gujarat,Ahmedabad,Bajra,4.0,1701,30,531,4.885982947852398,16.0,Mixed Soil,Low,603,Medium Risk,2,2,60
+Gujarat,Ahmedabad,Groundnut,4.0,101,30,531,7.366710704893705,16.0,Mixed Soil,Low,622,Medium Risk,2,2,67
+Gujarat,Ahmedabad,Rice,4.0,107801,30,531,5.802307388085119,16.0,Mixed Soil,Low,324,High Risk,3,3,95
+Gujarat,Ahmedabad,Wheat,4.0,178801,23,12,2.688051098210756,16.0,Mixed Soil,Low,571,Medium Risk,2,2,57
+Gujarat,Ahmedabad,Bajra,4.0,901,31,99,2.7744014921095737,16.0,Mixed Soil,Low,880,Very Low Risk,0,0,6
+Gujarat,Ahmedabad,Rice,4.0,4701,31,99,5.296768887324544,16.0,Mixed Soil,Low,826,Low Risk,1,1,26
+Gujarat,Gandhinagar,Bajra,4.0,4801,32,651,3.471659296953896,16.0,Mixed Soil,Low,458,High Risk,3,3,84
+Gujarat,Gandhinagar,Wheat,4.0,8801,24,12,3.5128671514695657,16.0,Mixed Soil,Low,872,Very Low Risk,0,0,12
+Gujarat,Gandhinagar,Bajra,4.0,6001,32,74,2.9337390591741777,16.0,Mixed Soil,Low,881,Very Low Risk,0,0,14
+Gujarat,Gandhinagar,Groundnut,4.0,101,32,74,7.9658502100121025,16.0,Mixed Soil,Low,879,Very Low Risk,0,0,14
+Gujarat,Gandhinagar,Maize,4.0,301,29,246,6.09411786474337,16.0,Mixed Soil,Low,793,Low Risk,1,1,28
+Gujarat,Gandhinagar,Rice,4.0,7201,29,246,6.741768413611829,16.0,Mixed Soil,Low,623,Medium Risk,2,2,65
+Gujarat,Gandhinagar,Bajra,4.0,3701,31,701,7.907396949257464,16.0,Mixed Soil,Low,478,High Risk,3,3,85
+Gujarat,Gandhinagar,Groundnut,4.0,101,31,701,5.77066784526963,16.0,Mixed Soil,Low,341,High Risk,3,3,87
+Gujarat,Gandhinagar,Jowar,4.0,3301,31,701,3.943501309888414,16.0,Mixed Soil,Low,367,High Risk,3,3,87
+Gujarat,Gandhinagar,Maize,4.0,201,31,701,4.837298333598674,16.0,Mixed Soil,Low,445,High Risk,3,3,74
+Gujarat,Gandhinagar,Rice,4.0,5901,31,701,3.563684832545883,16.0,Mixed Soil,Low,402,High Risk,3,3,73
+Gujarat,Gandhinagar,Wheat,4.0,7101,24,13,3.1479674828468296,16.0,Mixed Soil,Low,866,Very Low Risk,0,0,14
+Gujarat,Gandhinagar,Bajra,4.0,5901,32,91,3.58682668335934,16.0,Mixed Soil,Low,717,Low Risk,1,1,34
+Gujarat,Gandhinagar,Groundnut,4.0,101,32,91,8.156727572393535,16.0,Mixed Soil,Low,889,Very Low Risk,0,0,1
+Gujarat,Gandhinagar,Bajra,4.0,3001,30,661,6.565533765839975,16.0,Mixed Soil,Low,462,High Risk,3,3,70
+Gujarat,Gandhinagar,Groundnut,4.0,401,30,661,2.695638545757453,16.0,Mixed Soil,Low,312,High Risk,3,3,85
+Gujarat,Gandhinagar,Maize,4.0,101,30,661,6.0592083103612415,16.0,Mixed Soil,Low,409,High Risk,3,3,73
+Gujarat,Gandhinagar,Rice,4.0,7901,30,661,9.450968172667356,16.0,Mixed Soil,Low,365,High Risk,3,3,90
+Gujarat,Gandhinagar,Wheat,4.0,7301,23,12,8.295879979907003,16.0,Mixed Soil,Low,900,Very Low Risk,0,0,6
+Gujarat,Gandhinagar,Bajra,4.0,4701,31,80,6.238636313027423,16.0,Mixed Soil,Low,862,Very Low Risk,0,0,12
+Gujarat,Gandhinagar,Groundnut,4.0,401,31,80,8.310979327499684,16.0,Mixed Soil,Low,878,Very Low Risk,0,0,12
+Gujarat,Gandhinagar,Bajra,4.0,3501,30,593,2.6231146603620017,16.0,Mixed Soil,Low,637,Medium Risk,2,2,53
+Gujarat,Gandhinagar,Groundnut,4.0,301,30,593,8.850464506439385,16.0,Mixed Soil,Low,538,Medium Risk,2,2,52
+Gujarat,Gandhinagar,Jowar,4.0,1101,30,593,9.851786176515256,16.0,Mixed Soil,Low,559,Medium Risk,2,2,59
+Gujarat,Gandhinagar,Maize,4.0,201,30,593,7.572304216410846,16.0,Mixed Soil,Low,698,Medium Risk,2,2,53
+Gujarat,Gandhinagar,Rice,4.0,7601,30,593,4.005271399575183,16.0,Mixed Soil,Low,609,Medium Risk,2,2,50
+Gujarat,Gandhinagar,Wheat,4.0,7001,23,17,8.31899860015232,16.0,Mixed Soil,Low,880,Very Low Risk,0,0,3
+Gujarat,Gandhinagar,Bajra,4.0,4001,31,85,6.083917401845153,16.0,Mixed Soil,Low,893,Very Low Risk,0,0,6
+Gujarat,Gandhinagar,Groundnut,4.0,401,31,85,4.221863519624479,16.0,Mixed Soil,Low,887,Very Low Risk,0,0,10
+Gujarat,Gandhinagar,Bajra,4.0,4201,30,671,7.222829122893397,16.0,Mixed Soil,Low,439,High Risk,3,3,74
+Gujarat,Gandhinagar,Groundnut,4.0,301,30,671,2.584110219089066,16.0,Mixed Soil,Low,348,High Risk,3,3,94
+Gujarat,Gandhinagar,Jowar,4.0,4201,30,671,6.626429179863763,16.0,Mixed Soil,Low,448,High Risk,3,3,71
+Gujarat,Gandhinagar,Maize,4.0,101,30,671,7.750221064774766,16.0,Mixed Soil,Low,319,High Risk,3,3,91
+Gujarat,Gandhinagar,Rice,4.0,7001,30,671,3.6613641579235177,16.0,Mixed Soil,Low,362,High Risk,3,3,90
+Gujarat,Gandhinagar,Wheat,4.0,7701,23,13,4.496665361097512,16.0,Mixed Soil,Low,896,Very Low Risk,0,0,10
+Gujarat,Gandhinagar,Bajra,4.0,6001,31,94,7.1255327947112015,16.0,Mixed Soil,Low,796,Low Risk,1,1,22
+Gujarat,Gandhinagar,Groundnut,4.0,201,31,94,6.655812588923001,16.0,Mixed Soil,Low,867,Very Low Risk,0,0,8
+Gujarat,Gandhinagar,Bajra,4.0,3901,30,634,9.625225128761834,16.0,Mixed Soil,Low,381,High Risk,3,3,98
+Gujarat,Gandhinagar,Groundnut,4.0,901,30,634,9.467742857227638,16.0,Mixed Soil,Low,620,Medium Risk,2,2,58
+Gujarat,Gandhinagar,Maize,4.0,201,30,634,4.388329154206691,16.0,Mixed Soil,Low,600,Medium Risk,2,2,68
+Gujarat,Gandhinagar,Rice,4.0,4601,30,634,3.116481530118117,16.0,Mixed Soil,Low,388,High Risk,3,3,87
+Gujarat,Gandhinagar,Wheat,4.0,6501,22,17,7.027727271208039,16.0,Mixed Soil,Low,874,Very Low Risk,0,0,6
+Gujarat,Gandhinagar,Bajra,4.0,1001,31,85,5.165021171634561,16.0,Mixed Soil,Low,893,Very Low Risk,0,0,14
+Gujarat,Gandhinagar,Groundnut,4.0,101,31,85,2.0931615411023543,16.0,Mixed Soil,Low,879,Very Low Risk,0,0,6
+Gujarat,Gandhinagar,Bajra,4.0,28901,31,507,8.894470164270587,16.0,Mixed Soil,Low,541,Medium Risk,2,2,67
+Gujarat,Gandhinagar,Groundnut,4.0,2101,31,507,8.262756441328555,16.0,Mixed Soil,Low,543,Medium Risk,2,2,60
+Gujarat,Gandhinagar,Jowar,4.0,1401,31,507,4.2934946500368,16.0,Mixed Soil,Low,512,Medium Risk,2,2,58
+Gujarat,Gandhinagar,Maize,4.0,701,31,507,7.046465491237232,16.0,Mixed Soil,Low,689,Medium Risk,2,2,62
+Gujarat,Gandhinagar,Rice,4.0,13101,31,507,5.941923277728732,16.0,Mixed Soil,Low,540,Medium Risk,2,2,69
+Gujarat,Gandhinagar,Wheat,4.0,22901,24,11,4.240695794966492,16.0,Mixed Soil,Low,874,Very Low Risk,0,0,7
+Gujarat,Gandhinagar,Bajra,4.0,10901,31,79,3.815984156760216,16.0,Mixed Soil,Low,844,Low Risk,1,1,22
+Gujarat,Gandhinagar,Groundnut,4.0,501,31,79,8.721267038846431,16.0,Mixed Soil,Low,900,Very Low Risk,0,0,2
+Gujarat,Gandhinagar,Bajra,4.0,19201,30,851,5.5855309793031855,16.0,Mixed Soil,Low,311,High Risk,3,3,89
+Gujarat,Gandhinagar,Groundnut,4.0,2501,30,851,2.7178187039517105,16.0,Mixed Soil,Low,420,High Risk,3,3,84
+Gujarat,Gandhinagar,Rice,4.0,13201,30,851,8.436653738986983,16.0,Mixed Soil,Low,396,High Risk,3,3,92
+Gujarat,Gandhinagar,Wheat,4.0,26501,23,10,9.807574470014508,16.0,Mixed Soil,Low,725,Low Risk,1,1,25
+Gujarat,Gandhinagar,Bajra,4.0,6401,32,88,2.0641226671427626,16.0,Mixed Soil,Low,724,Low Risk,1,1,24
+Gujarat,Gandhinagar,Groundnut,4.0,401,32,88,8.49895800018265,16.0,Mixed Soil,Low,883,Very Low Risk,0,0,8
+Gujarat,Gandhinagar,Bajra,4.0,19701,31,671,8.829645028679021,16.0,Mixed Soil,Low,374,High Risk,3,3,94
+Gujarat,Gandhinagar,Groundnut,4.0,1901,31,671,6.203149858449969,16.0,Mixed Soil,Low,408,High Risk,3,3,87
+Gujarat,Gandhinagar,Jowar,4.0,1001,31,671,2.9340172614260656,16.0,Mixed Soil,Low,386,High Risk,3,3,90
+Gujarat,Gandhinagar,Rice,4.0,10001,31,671,8.610442528313532,16.0,Mixed Soil,Low,425,High Risk,3,3,83
+Gujarat,Gandhinagar,Wheat,4.0,25201,23,14,3.692368590310471,16.0,Mixed Soil,Low,722,Low Risk,1,1,21
+Gujarat,Gandhinagar,Bajra,4.0,7401,31,83,2.956911064511706,16.0,Mixed Soil,Low,764,Low Risk,1,1,21
+Gujarat,Gandhinagar,Groundnut,4.0,201,31,83,3.427168495888421,16.0,Mixed Soil,Low,858,Very Low Risk,0,0,1
+Gujarat,Gandhinagar,Rice,4.0,301,31,83,6.866271131415321,16.0,Mixed Soil,Low,899,Very Low Risk,0,0,9
+Gujarat,Gandhinagar,Bajra,4.0,20501,30,721,5.683002813335522,16.0,Mixed Soil,Low,331,High Risk,3,3,95
+Gujarat,Gandhinagar,Groundnut,4.0,2601,30,721,5.183481446277214,16.0,Mixed Soil,Low,362,High Risk,3,3,86
+Gujarat,Gandhinagar,Jowar,4.0,4301,30,721,8.387104932856921,16.0,Mixed Soil,Low,326,High Risk,3,3,87
+Gujarat,Gandhinagar,Maize,4.0,1001,30,721,7.29254932005832,16.0,Mixed Soil,Low,323,High Risk,3,3,99
+Gujarat,Gandhinagar,Rice,4.0,11301,30,721,2.630968281953378,16.0,Mixed Soil,Low,409,High Risk,3,3,82
+Gujarat,Gandhinagar,Wheat,4.0,27501,23,15,2.442411824257185,16.0,Mixed Soil,Low,715,Low Risk,1,1,33
+Gujarat,Gandhinagar,Bajra,4.0,5501,32,79,8.647963759898392,16.0,Mixed Soil,Low,855,Very Low Risk,0,0,8
+Gujarat,Gandhinagar,Groundnut,4.0,301,32,79,7.620295568607878,16.0,Mixed Soil,Low,887,Very Low Risk,0,0,8
+Gujarat,Gandhinagar,Rice,4.0,3001,32,79,3.942439697195704,16.0,Mixed Soil,Low,873,Very Low Risk,0,0,12
+Gujarat,Gandhinagar,Bajra,4.0,15901,30,611,5.248139142780255,16.0,Mixed Soil,Low,632,Medium Risk,2,2,66
+Gujarat,Gandhinagar,Groundnut,4.0,3301,30,611,3.39512631196237,16.0,Mixed Soil,Low,594,Medium Risk,2,2,55
+Gujarat,Gandhinagar,Jowar,4.0,5001,30,611,8.32727788534053,16.0,Mixed Soil,Low,616,Medium Risk,2,2,65
+Gujarat,Gandhinagar,Maize,4.0,401,30,611,8.522612248569333,16.0,Mixed Soil,Low,520,Medium Risk,2,2,52
+Gujarat,Gandhinagar,Rice,4.0,12801,30,611,4.881190342289922,16.0,Mixed Soil,Low,409,High Risk,3,3,71
+Gujarat,Gandhinagar,Wheat,4.0,43801,23,13,8.974232401551776,16.0,Mixed Soil,Low,792,Low Risk,1,1,22
+Gujarat,Gandhinagar,Bajra,4.0,7501,30,94,6.26024318467235,16.0,Mixed Soil,Low,836,Low Risk,1,1,34
+Gujarat,Gandhinagar,Groundnut,4.0,301,30,94,4.035246361091844,16.0,Mixed Soil,Low,855,Very Low Risk,0,0,5
+Gujarat,Gandhinagar,Rice,4.0,3001,30,94,5.033137207667029,16.0,Mixed Soil,Low,716,Low Risk,1,1,27
+Gujarat,Gandhinagar,Bajra,4.0,15001,31,641,9.359850174799725,16.0,Mixed Soil,Low,387,High Risk,3,3,89
+Gujarat,Gandhinagar,Groundnut,4.0,2301,31,641,2.3686300690122497,16.0,Mixed Soil,Low,308,High Risk,3,3,91
+Gujarat,Gandhinagar,Maize,4.0,601,31,641,4.117925202915632,16.0,Mixed Soil,Low,669,Medium Risk,2,2,58
+Gujarat,Gandhinagar,Rice,4.0,12801,31,641,5.244817777031241,16.0,Mixed Soil,Low,450,High Risk,3,3,75
+Gujarat,Gandhinagar,Wheat,4.0,32801,22,12,7.328260724337674,16.0,Mixed Soil,Low,793,Low Risk,1,1,27
+Gujarat,Gandhinagar,Bajra,4.0,9301,32,85,8.887839534182872,16.0,Mixed Soil,Low,719,Low Risk,1,1,34
+Gujarat,Gandhinagar,Groundnut,4.0,701,32,85,8.635711123576478,16.0,Mixed Soil,Low,870,Very Low Risk,0,0,2
+Gujarat,Gandhinagar,Bajra,4.0,9301,30,761,2.91786603307874,16.0,Mixed Soil,Low,475,High Risk,3,3,88
+Gujarat,Gandhinagar,Groundnut,4.0,2801,30,761,8.081178759821348,16.0,Mixed Soil,Low,420,High Risk,3,3,75
+Gujarat,Gandhinagar,Jowar,4.0,2301,30,761,6.915230273777664,16.0,Mixed Soil,Low,418,High Risk,3,3,76
+Gujarat,Gandhinagar,Maize,4.0,401,30,761,5.554674330914287,16.0,Mixed Soil,Low,460,High Risk,3,3,76
+Gujarat,Gandhinagar,Rice,4.0,10601,30,761,9.001241065189157,16.0,Mixed Soil,Low,388,High Risk,3,3,98
+Gujarat,Gandhinagar,Wheat,4.0,29101,23,13,8.01713066052006,16.0,Mixed Soil,Low,700,Low Risk,1,1,33
+Gujarat,Gandhinagar,Bajra,4.0,6401,31,82,6.274925653718066,16.0,Mixed Soil,Low,900,Very Low Risk,0,0,13
+Gujarat,Gandhinagar,Groundnut,4.0,901,31,82,7.811356470581279,16.0,Mixed Soil,Low,856,Very Low Risk,0,0,10
+Gujarat,Gandhinagar,Bajra,4.0,8801,31,656,3.399400050533896,16.0,Mixed Soil,Low,339,High Risk,3,3,86
+Gujarat,Gandhinagar,Groundnut,4.0,2801,31,656,7.977906856113333,16.0,Mixed Soil,Low,459,High Risk,3,3,83
+Gujarat,Gandhinagar,Jowar,4.0,2101,31,656,4.991205023747089,16.0,Mixed Soil,Low,393,High Risk,3,3,98
+Gujarat,Gandhinagar,Maize,4.0,301,31,656,4.004105088478982,16.0,Mixed Soil,Low,323,High Risk,3,3,95
+Gujarat,Gandhinagar,Rice,4.0,16001,31,656,4.981959547945117,16.0,Mixed Soil,Low,447,High Risk,3,3,80
+Gujarat,Gandhinagar,Jowar,4.0,401,23,15,8.004662275971889,16.0,Mixed Soil,Low,884,Very Low Risk,0,0,3
+Gujarat,Gandhinagar,Maize,4.0,501,23,15,3.8807550361925696,16.0,Mixed Soil,Low,892,Very Low Risk,0,0,12
+Gujarat,Gandhinagar,Wheat,4.0,35901,23,15,5.265858601329606,16.0,Mixed Soil,Low,723,Low Risk,1,1,33
+Gujarat,Gandhinagar,Bajra,4.0,6301,31,74,7.677647753933658,16.0,Mixed Soil,Low,866,Very Low Risk,0,0,11
+Gujarat,Gandhinagar,Groundnut,4.0,101,31,74,8.136385445748179,16.0,Mixed Soil,Low,862,Very Low Risk,0,0,12
+Gujarat,Gandhinagar,Bajra,4.0,9401,30,691,6.428167383682322,16.0,Mixed Soil,Low,327,High Risk,3,3,89
+Gujarat,Gandhinagar,Groundnut,4.0,3101,30,691,6.217924504636821,16.0,Mixed Soil,Low,362,High Risk,3,3,91
+Gujarat,Gandhinagar,Jowar,4.0,8301,30,691,8.401470309471787,16.0,Mixed Soil,Low,402,High Risk,3,3,88
+Gujarat,Gandhinagar,Maize,4.0,501,30,691,3.70010775418198,16.0,Mixed Soil,Low,432,High Risk,3,3,73
+Gujarat,Gandhinagar,Rice,4.0,8801,30,691,9.27469323904678,16.0,Mixed Soil,Low,303,High Risk,3,3,94
+Gujarat,Gandhinagar,Jowar,4.0,401,23,12,4.424320839989271,16.0,Mixed Soil,Low,857,Very Low Risk,0,0,8
+Gujarat,Gandhinagar,Wheat,4.0,35101,23,12,9.692014756428131,16.0,Mixed Soil,Low,797,Low Risk,1,1,30
+Gujarat,Gandhinagar,Bajra,4.0,15701,31,78,5.79692361987316,16.0,Mixed Soil,Low,776,Low Risk,1,1,26
+Gujarat,Gandhinagar,Groundnut,4.0,301,31,78,6.188822810429106,16.0,Mixed Soil,Low,900,Very Low Risk,0,0,6
+Gujarat,Gandhinagar,Bajra,4.0,8201,31,690,7.063503528074101,16.0,Mixed Soil,Low,407,High Risk,3,3,77
+Gujarat,Gandhinagar,Groundnut,4.0,2701,31,690,5.695541318973591,16.0,Mixed Soil,Low,323,High Risk,3,3,87
+Gujarat,Gandhinagar,Jowar,4.0,2501,31,690,7.572832339050127,16.0,Mixed Soil,Low,392,High Risk,3,3,92
+Gujarat,Gandhinagar,Maize,4.0,301,31,690,6.377687498597179,16.0,Mixed Soil,Low,412,High Risk,3,3,77
+Gujarat,Gandhinagar,Rice,4.0,3501,31,690,6.632710269129154,16.0,Mixed Soil,Low,413,High Risk,3,3,78
+Gujarat,Gandhinagar,Wheat,4.0,30301,23,12,3.233990704848428,16.0,Mixed Soil,Low,735,Low Risk,1,1,25
+Gujarat,Gandhinagar,Bajra,4.0,9601,32,81,4.795579212074561,16.0,Mixed Soil,Low,794,Low Risk,1,1,28
+Gujarat,Gandhinagar,Groundnut,4.0,201,32,81,8.069300612748236,16.0,Mixed Soil,Low,893,Very Low Risk,0,0,3
+Gujarat,Junagadh,Bajra,4.0,29401,28,651,6.074243030342797,16.0,Mixed Soil,Low,335,High Risk,3,3,94
+Gujarat,Junagadh,Groundnut,4.0,422401,28,651,8.767520291812094,16.0,Mixed Soil,Low,104,Very High Risk,4,4,98
+Gujarat,Junagadh,Jowar,4.0,801,28,651,8.34879844118862,16.0,Mixed Soil,Low,466,High Risk,3,3,70
+Gujarat,Junagadh,Jowar,4.0,3901,22,15,6.193018625499721,16.0,Mixed Soil,Low,851,Very Low Risk,0,0,8
+Gujarat,Junagadh,Wheat,4.0,65701,22,15,4.473914474438268,16.0,Mixed Soil,Low,574,Medium Risk,2,2,55
+Gujarat,Junagadh,Bajra,4.0,1901,26,194,9.169409072124928,16.0,Mixed Soil,Low,763,Low Risk,1,1,33
+Gujarat,Junagadh,Groundnut,4.0,9301,26,194,6.659945056244763,16.0,Mixed Soil,Low,789,Low Risk,1,1,29
+Gujarat,Junagadh,Maize,4.0,701,26,287,3.602945789552048,16.0,Mixed Soil,Low,588,Medium Risk,2,2,52
+Gujarat,Junagadh,Rice,4.0,101,26,287,4.890607768697066,16.0,Mixed Soil,Low,526,Medium Risk,2,2,65
+Gujarat,Junagadh,Sugarcane,4.0,8001,26,287,9.527877593101632,16.0,Mixed Soil,Low,125,Very High Risk,4,4,109
+Gujarat,Junagadh,Bajra,4.0,32901,27,631,8.457719268218671,16.0,Mixed Soil,Low,471,High Risk,3,3,89
+Gujarat,Junagadh,Groundnut,4.0,425801,27,631,7.906285101224816,16.0,Mixed Soil,Low,221,Very High Risk,4,4,101
+Gujarat,Junagadh,Jowar,4.0,4501,27,631,3.349009238502231,16.0,Mixed Soil,Low,510,Medium Risk,2,2,63
+Gujarat,Junagadh,Maize,4.0,201,27,631,2.2253690955943157,16.0,Mixed Soil,Low,576,Medium Risk,2,2,56
+Gujarat,Junagadh,Jowar,4.0,6001,22,17,8.370117245164693,16.0,Mixed Soil,Low,852,Very Low Risk,0,0,5
+Gujarat,Junagadh,Wheat,4.0,69101,22,17,7.451104725942207,16.0,Mixed Soil,Low,576,Medium Risk,2,2,55
+Gujarat,Junagadh,Bajra,4.0,1601,26,199,8.334775084439626,16.0,Mixed Soil,Low,768,Low Risk,1,1,27
+Gujarat,Junagadh,Groundnut,4.0,12901,26,199,6.863825247359141,16.0,Mixed Soil,Low,767,Low Risk,1,1,20
+Gujarat,Junagadh,Sugarcane,4.0,7401,25,282,4.218862980655809,16.0,Mixed Soil,Low,178,Very High Risk,4,4,106
+Gujarat,Junagadh,Bajra,4.0,33501,26,621,2.5719330223789703,16.0,Mixed Soil,Low,480,High Risk,3,3,83
+Gujarat,Junagadh,Groundnut,4.0,433001,26,621,3.424339429214492,16.0,Mixed Soil,Low,389,High Risk,3,3,86
+Gujarat,Junagadh,Jowar,4.0,2501,26,621,5.5107325358358175,16.0,Mixed Soil,Low,503,Medium Risk,2,2,60
+Gujarat,Junagadh,Maize,4.0,201,26,621,6.122004070307699,16.0,Mixed Soil,Low,537,Medium Risk,2,2,54
+Gujarat,Junagadh,Jowar,4.0,10101,21,13,9.8054517165426,16.0,Mixed Soil,Low,875,Very Low Risk,0,0,14
+Gujarat,Junagadh,Wheat,4.0,20901,21,13,8.74875804589815,16.0,Mixed Soil,Low,881,Very Low Risk,0,0,10
+Gujarat,Junagadh,Bajra,4.0,1601,26,151,8.541803583445372,16.0,Mixed Soil,Low,829,Low Risk,1,1,33
+Gujarat,Junagadh,Groundnut,4.0,1101,26,151,5.335575101680594,16.0,Mixed Soil,Low,761,Low Risk,1,1,32
+Gujarat,Junagadh,Sugarcane,4.0,7601,24,262,5.896564014441672,16.0,Mixed Soil,Low,313,High Risk,3,3,92
+Gujarat,Junagadh,Bajra,4.0,28401,26,601,2.9212876131740604,16.0,Mixed Soil,Low,417,High Risk,3,3,88
+Gujarat,Junagadh,Groundnut,4.0,406301,26,601,7.057872474097556,16.0,Mixed Soil,Low,209,Very High Risk,4,4,108
+Gujarat,Junagadh,Jowar,4.0,4401,26,601,3.647237451953325,16.0,Mixed Soil,Low,610,Medium Risk,2,2,58
+Gujarat,Junagadh,Maize,4.0,201,26,601,7.284572310082687,16.0,Mixed Soil,Low,562,Medium Risk,2,2,58
+Gujarat,Junagadh,Jowar,4.0,5701,22,18,7.540119087805516,16.0,Mixed Soil,Low,874,Very Low Risk,0,0,10
+Gujarat,Junagadh,Wheat,4.0,5801,22,18,3.187166453667454,16.0,Mixed Soil,Low,876,Very Low Risk,0,0,11
+Gujarat,Junagadh,Bajra,4.0,501,25,185,7.758347669921043,16.0,Mixed Soil,Low,760,Low Risk,1,1,27
+Gujarat,Junagadh,Groundnut,4.0,401,25,185,3.019479837638705,16.0,Mixed Soil,Low,739,Low Risk,1,1,23
+Gujarat,Junagadh,Sugarcane,4.0,1601,24,268,7.525557909690386,16.0,Mixed Soil,Low,664,Medium Risk,2,2,65
+Gujarat,Junagadh,Bajra,4.0,17001,26,671,9.876011997592764,16.0,Mixed Soil,Low,323,High Risk,3,3,91
+Gujarat,Junagadh,Groundnut,4.0,444001,26,671,3.2441653546503355,16.0,Mixed Soil,Low,103,Very High Risk,4,4,101
+Gujarat,Junagadh,Jowar,4.0,301,26,671,4.106070989529912,16.0,Mixed Soil,Low,383,High Risk,3,3,95
+Gujarat,Junagadh,Jowar,4.0,5601,21,19,9.948236929510442,16.0,Mixed Soil,Low,872,Very Low Risk,0,0,1
+Gujarat,Junagadh,Wheat,4.0,69501,21,19,6.690757605538766,16.0,Mixed Soil,Low,665,Medium Risk,2,2,68
+Gujarat,Junagadh,Bajra,4.0,1201,26,194,2.9785596124702325,16.0,Mixed Soil,Low,717,Low Risk,1,1,27
+Gujarat,Junagadh,Groundnut,4.0,1901,26,194,6.129007949011402,16.0,Mixed Soil,Low,811,Low Risk,1,1,33
+Gujarat,Junagadh,Sugarcane,4.0,5601,24,294,5.745227369580329,16.0,Mixed Soil,Low,383,High Risk,3,3,97
+Gujarat,Junagadh,Bajra,4.0,16501,26,611,9.15038910378214,16.0,Mixed Soil,Low,444,High Risk,3,3,74
+Gujarat,Junagadh,Groundnut,4.0,457801,26,611,6.791699467091192,16.0,Mixed Soil,Low,137,Very High Risk,4,4,99
+Gujarat,Junagadh,Jowar,4.0,401,26,611,7.525469953550291,16.0,Mixed Soil,Low,514,Medium Risk,2,2,55
+Gujarat,Junagadh,Maize,4.0,101,26,611,9.80951503696949,16.0,Mixed Soil,Low,629,Medium Risk,2,2,69
+Gujarat,Junagadh,Jowar,4.0,13901,21,15,2.5051006230518125,16.0,Mixed Soil,Low,896,Very Low Risk,0,0,10
+Gujarat,Junagadh,Wheat,4.0,14701,21,15,6.412625400534866,16.0,Mixed Soil,Low,898,Very Low Risk,0,0,0
+Gujarat,Junagadh,Bajra,4.0,801,26,195,4.306195748543758,16.0,Mixed Soil,Low,847,Low Risk,1,1,26
+Gujarat,Junagadh,Groundnut,4.0,801,26,195,8.626740308055556,16.0,Mixed Soil,Low,844,Low Risk,1,1,25
+Gujarat,Junagadh,Sugarcane,4.0,5701,24,274,6.076116853901151,16.0,Mixed Soil,Low,318,High Risk,3,3,94
+Gujarat,Junagadh,Bajra,4.0,20501,27,600,8.219624120823799,16.0,Mixed Soil,Low,478,High Risk,3,3,79
+Gujarat,Junagadh,Groundnut,4.0,415201,27,600,6.295948504682453,16.0,Mixed Soil,Low,223,Very High Risk,4,4,108
+Gujarat,Junagadh,Jowar,4.0,1001,27,600,5.008353229007217,16.0,Mixed Soil,Low,584,Medium Risk,2,2,55
+Gujarat,Junagadh,Jowar,4.0,3801,22,17,2.870467222920812,16.0,Mixed Soil,Low,867,Very Low Risk,0,0,13
+Gujarat,Junagadh,Wheat,4.0,90301,22,17,9.873488648770396,16.0,Mixed Soil,Low,697,Medium Risk,2,2,64
+Gujarat,Junagadh,Bajra,4.0,4001,26,200,7.374431610566292,16.0,Mixed Soil,Low,721,Low Risk,1,1,31
+Gujarat,Junagadh,Groundnut,4.0,17501,26,200,8.788267433078843,16.0,Mixed Soil,Low,751,Low Risk,1,1,32
+Gujarat,Junagadh,Sugarcane,4.0,4401,25,272,5.374805989093689,16.0,Mixed Soil,Low,321,High Risk,3,3,85
+Gujarat,Junagadh,Bajra,4.0,16701,26,590,6.862375845155695,16.0,Mixed Soil,Low,565,Medium Risk,2,2,68
+Gujarat,Junagadh,Groundnut,4.0,415801,26,590,5.392490053193997,16.0,Mixed Soil,Low,115,Very High Risk,4,4,97
+Gujarat,Junagadh,Jowar,4.0,501,26,590,8.421607328306667,16.0,Mixed Soil,Low,660,Medium Risk,2,2,68
+Gujarat,Junagadh,Jowar,4.0,4001,21,16,8.236590419679539,16.0,Mixed Soil,Low,854,Very Low Risk,0,0,7
+Gujarat,Junagadh,Wheat,4.0,95001,21,16,3.077502814894886,16.0,Mixed Soil,Low,674,Medium Risk,2,2,54
+Gujarat,Junagadh,Bajra,4.0,4701,27,198,4.156377310899046,16.0,Mixed Soil,Low,723,Low Risk,1,1,20
+Gujarat,Junagadh,Groundnut,4.0,15901,27,198,7.349288844397273,16.0,Mixed Soil,Low,709,Low Risk,1,1,33
+Gujarat,Junagadh,Sugarcane,4.0,5501,25,268,6.5088132384251125,16.0,Mixed Soil,Low,308,High Risk,3,3,87
+Gujarat,Junagadh,Bajra,4.0,15501,27,671,5.813334137455958,16.0,Mixed Soil,Low,431,High Risk,3,3,74
+Gujarat,Junagadh,Groundnut,4.0,399901,27,671,3.6532803444832087,16.0,Mixed Soil,Low,267,Very High Risk,4,4,104
+Gujarat,Junagadh,Jowar,4.0,101,27,671,3.153031829997401,16.0,Mixed Soil,Low,334,High Risk,3,3,96
+Gujarat,Junagadh,Jowar,4.0,2801,21,15,4.650184580953702,16.0,Mixed Soil,Low,870,Very Low Risk,0,0,2
+Gujarat,Junagadh,Wheat,4.0,109001,21,15,5.348391814764412,16.0,Mixed Soil,Low,586,Medium Risk,2,2,58
+Gujarat,Junagadh,Bajra,4.0,7301,26,193,5.952564900135508,16.0,Mixed Soil,Low,827,Low Risk,1,1,26
+Gujarat,Junagadh,Groundnut,4.0,19501,26,193,8.818785029362072,16.0,Mixed Soil,Low,768,Low Risk,1,1,23
+Gujarat,Junagadh,Sugarcane,4.0,10801,25,293,4.536121141354018,16.0,Mixed Soil,Low,204,Very High Risk,4,4,105
+Gujarat,Junagadh,Bajra,4.0,14801,26,611,9.796150012325,16.0,Mixed Soil,Low,599,Medium Risk,2,2,62
+Gujarat,Junagadh,Groundnut,4.0,374001,26,611,9.857969941436616,16.0,Mixed Soil,Low,225,Very High Risk,4,4,95
+Gujarat,Junagadh,Jowar,4.0,101,26,611,4.938313756417336,16.0,Mixed Soil,Low,650,Medium Risk,2,2,59
+Gujarat,Junagadh,Jowar,4.0,2801,21,15,3.869103389973803,16.0,Mixed Soil,Low,852,Very Low Risk,0,0,0
+Gujarat,Junagadh,Wheat,4.0,142301,21,15,4.054665459922767,16.0,Mixed Soil,Low,300,High Risk,3,3,88
+Gujarat,Junagadh,Bajra,4.0,7601,27,181,5.682084725978722,16.0,Mixed Soil,Low,771,Low Risk,1,1,30
+Gujarat,Junagadh,Groundnut,4.0,21401,27,181,3.166516969404112,16.0,Mixed Soil,Low,730,Low Risk,1,1,31
+Gujarat,Junagadh,Sugarcane,4.0,14801,25,269,6.046152697497757,16.0,Mixed Soil,Low,140,Very High Risk,4,4,101
+Gujarat,Junagadh,Bajra,4.0,8501,26,624,4.780006341384835,16.0,Mixed Soil,Low,354,High Risk,3,3,85
+Gujarat,Junagadh,Groundnut,4.0,383401,26,624,8.702175993342792,16.0,Mixed Soil,Low,255,Very High Risk,4,4,97
+Gujarat,Junagadh,Jowar,4.0,3601,21,17,6.2643006868496,16.0,Mixed Soil,Low,888,Very Low Risk,0,0,7
+Gujarat,Junagadh,Wheat,4.0,179601,21,17,9.46086187993036,16.0,Mixed Soil,Low,440,High Risk,3,3,86
+Gujarat,Junagadh,Bajra,4.0,10001,26,184,9.771050067493896,16.0,Mixed Soil,Low,791,Low Risk,1,1,25
+Gujarat,Junagadh,Groundnut,4.0,23801,26,184,8.693771055583877,16.0,Mixed Soil,Low,803,Low Risk,1,1,31
+Gujarat,Junagadh,Sugarcane,4.0,11701,24,275,9.254880841222867,16.0,Mixed Soil,Low,217,Very High Risk,4,4,97
+Gujarat,Junagadh,Bajra,4.0,9401,27,641,3.683409658058512,16.0,Mixed Soil,Low,394,High Risk,3,3,85
+Gujarat,Junagadh,Groundnut,4.0,404301,27,641,5.47515380629666,16.0,Mixed Soil,Low,250,Very High Risk,4,4,107
+Gujarat,Junagadh,Jowar,4.0,3001,21,18,7.601586902627177,16.0,Mixed Soil,Low,890,Very Low Risk,0,0,6
+Gujarat,Junagadh,Wheat,4.0,188101,21,18,9.426787808828198,16.0,Mixed Soil,Low,398,High Risk,3,3,94
+Gujarat,Junagadh,Bajra,4.0,3501,27,191,2.5399657212732825,16.0,Mixed Soil,Low,836,Low Risk,1,1,34
+Gujarat,Junagadh,Groundnut,4.0,18701,27,191,8.703671913481713,16.0,Mixed Soil,Low,779,Low Risk,1,1,30
+Gujarat,Junagadh,Sugarcane,4.0,14601,25,283,8.27580911254746,16.0,Mixed Soil,Low,271,Very High Risk,4,4,105
+Gujarat,Junagadh,Bajra,4.0,14001,26,611,7.510332329763933,16.0,Mixed Soil,Low,485,High Risk,3,3,83
+Gujarat,Junagadh,Groundnut,4.0,397901,26,611,7.369030400347385,16.0,Mixed Soil,Low,326,High Risk,3,3,95
+Gujarat,Junagadh,Jowar,4.0,4001,22,12,6.721054164569204,16.0,Mixed Soil,Low,859,Very Low Risk,0,0,12
+Gujarat,Junagadh,Wheat,4.0,120501,22,12,7.57848496051359,16.0,Mixed Soil,Low,676,Medium Risk,2,2,64
+Gujarat,Junagadh,Bajra,4.0,5201,26,188,5.786175383930029,16.0,Mixed Soil,Low,758,Low Risk,1,1,21
+Gujarat,Junagadh,Groundnut,4.0,11301,26,188,2.4522371093391038,16.0,Mixed Soil,Low,849,Low Risk,1,1,24
+Gujarat,Junagadh,Sugarcane,4.0,10101,25,270,6.786679565573989,16.0,Mixed Soil,Low,144,Very High Risk,4,4,96
+Gujarat,Junagadh,Bajra,4.0,8901,26,656,2.5037361997050365,16.0,Mixed Soil,Low,443,High Risk,3,3,74
+Gujarat,Junagadh,Groundnut,4.0,402101,26,656,8.300355341358166,16.0,Mixed Soil,Low,242,Very High Risk,4,4,104
+Gujarat,Junagadh,Jowar,4.0,3901,22,14,6.022898864639528,16.0,Mixed Soil,Low,856,Very Low Risk,0,0,11
+Gujarat,Junagadh,Maize,4.0,24601,22,14,9.22392332981575,16.0,Mixed Soil,Low,865,Very Low Risk,0,0,14
+Gujarat,Junagadh,Wheat,4.0,210001,22,14,6.398369465209186,16.0,Mixed Soil,Low,149,Very High Risk,4,4,108
+Gujarat,Junagadh,Bajra,4.0,8201,26,195,6.4907619265445,16.0,Mixed Soil,Low,772,Low Risk,1,1,20
+Gujarat,Junagadh,Groundnut,4.0,40501,26,195,4.648477104200926,16.0,Mixed Soil,Low,566,Medium Risk,2,2,69
+Gujarat,Junagadh,Sugarcane,4.0,8801,25,288,2.3234800549490053,16.0,Mixed Soil,Low,279,Very High Risk,4,4,95
+Gujarat,Junagadh,Bajra,4.0,9101,26,591,6.626764058513103,16.0,Mixed Soil,Low,654,Medium Risk,2,2,55
+Gujarat,Junagadh,Groundnut,4.0,392201,26,591,5.42151650978085,16.0,Mixed Soil,Low,138,Very High Risk,4,4,107
+Gujarat,Junagadh,Rice,4.0,201,26,591,7.921667836967079,16.0,Mixed Soil,Low,642,Medium Risk,2,2,69
+Gujarat,Junagadh,Jowar,4.0,5601,22,18,2.7810578424692265,16.0,Mixed Soil,Low,885,Very Low Risk,0,0,5
+Gujarat,Junagadh,Wheat,4.0,152301,22,18,3.706948473900044,16.0,Mixed Soil,Low,373,High Risk,3,3,99
+Gujarat,Junagadh,Bajra,4.0,8201,26,188,5.146116241889549,16.0,Mixed Soil,Low,757,Low Risk,1,1,22
+Gujarat,Junagadh,Groundnut,4.0,20301,26,188,6.796247380087443,16.0,Mixed Soil,Low,738,Low Risk,1,1,29
+Gujarat,Junagadh,Sugarcane,4.0,12801,25,266,3.899950973152035,16.0,Mixed Soil,Low,244,Very High Risk,4,4,109
+Gujarat,Junagadh,Bajra,4.0,9901,26,640,7.696003104430002,16.0,Mixed Soil,Low,331,High Risk,3,3,99
+Gujarat,Junagadh,Groundnut,4.0,306601,26,640,6.4378330981214384,16.0,Mixed Soil,Low,411,High Risk,3,3,73
+Gujarat,Junagadh,Jowar,4.0,201,22,19,4.060466673004068,16.0,Mixed Soil,Low,858,Very Low Risk,0,0,2
+Gujarat,Junagadh,Wheat,4.0,39701,22,19,9.875416832860909,16.0,Mixed Soil,Low,742,Low Risk,1,1,23
+Gujarat,Junagadh,Bajra,4.0,1301,27,196,4.559272536973471,16.0,Mixed Soil,Low,813,Low Risk,1,1,32
+Gujarat,Junagadh,Groundnut,4.0,1301,27,196,7.183953582189985,16.0,Mixed Soil,Low,755,Low Risk,1,1,26
+Gujarat,Junagadh,Sugarcane,4.0,1401,25,285,8.4941191168081,16.0,Mixed Soil,Low,648,Medium Risk,2,2,66
+Gujarat,Rajkot,Bajra,4.0,61601,31,511,8.888191528843368,16.0,Mixed Soil,Low,501,Medium Risk,2,2,63
+Gujarat,Rajkot,Groundnut,4.0,423601,31,511,9.179264317132636,16.0,Mixed Soil,Low,184,Very High Risk,4,4,97
+Gujarat,Rajkot,Wheat,4.0,63501,24,13,6.0563275670725725,16.0,Mixed Soil,Low,684,Medium Risk,2,2,67
+Gujarat,Rajkot,Groundnut,4.0,1101,29,104,7.62940831329014,16.0,Mixed Soil,Low,777,Low Risk,1,1,29
+Gujarat,Rajkot,Sugarcane,4.0,501,28,209,7.65582650490386,16.0,Mixed Soil,Low,822,Low Risk,1,1,28
+Gujarat,Rajkot,Bajra,4.0,50901,29,461,9.679180366353926,16.0,Mixed Soil,Low,606,Medium Risk,2,2,60
+Gujarat,Rajkot,Groundnut,4.0,420101,29,461,6.44698287470744,16.0,Mixed Soil,Low,157,Very High Risk,4,4,102
+Gujarat,Rajkot,Jowar,4.0,101,29,461,6.842575478269106,16.0,Mixed Soil,Low,592,Medium Risk,2,2,60
+Gujarat,Rajkot,Maize,4.0,101,29,461,7.671433396252655,16.0,Mixed Soil,Low,600,Medium Risk,2,2,66
+Gujarat,Rajkot,Wheat,4.0,43901,24,12,9.814066434822411,16.0,Mixed Soil,Low,715,Low Risk,1,1,32
+Gujarat,Rajkot,Groundnut,4.0,901,29,106,9.496462459451717,16.0,Mixed Soil,Low,794,Low Risk,1,1,33
+Gujarat,Rajkot,Sugarcane,4.0,401,27,193,8.02420381807342,16.0,Mixed Soil,Low,801,Low Risk,1,1,30
+Gujarat,Rajkot,Bajra,4.0,43701,29,481,4.106948538483734,16.0,Mixed Soil,Low,697,Medium Risk,2,2,59
+Gujarat,Rajkot,Groundnut,4.0,403201,29,481,7.978763733504358,16.0,Mixed Soil,Low,687,Medium Risk,2,2,52
+Gujarat,Rajkot,Jowar,4.0,401,29,481,3.990417300397151,16.0,Mixed Soil,Low,609,Medium Risk,2,2,50
+Gujarat,Rajkot,Maize,4.0,301,29,481,7.443569938673091,16.0,Mixed Soil,Low,530,Medium Risk,2,2,58
+Gujarat,Rajkot,Wheat,4.0,9001,23,14,7.036695132315661,16.0,Mixed Soil,Low,868,Very Low Risk,0,0,12
+Gujarat,Rajkot,Sugarcane,4.0,201,27,206,7.894552162229735,16.0,Mixed Soil,Low,814,Low Risk,1,1,20
+Gujarat,Rajkot,Bajra,4.0,41601,29,491,8.765516884186827,16.0,Mixed Soil,Low,516,Medium Risk,2,2,68
+Gujarat,Rajkot,Groundnut,4.0,381101,29,491,9.44505420342614,16.0,Mixed Soil,Low,556,Medium Risk,2,2,63
+Gujarat,Rajkot,Jowar,4.0,5201,29,491,3.8163893632193977,16.0,Mixed Soil,Low,570,Medium Risk,2,2,54
+Gujarat,Rajkot,Maize,4.0,301,29,491,7.624186516793142,16.0,Mixed Soil,Low,632,Medium Risk,2,2,58
+Gujarat,Rajkot,Wheat,4.0,2901,23,15,6.6241444264026805,16.0,Mixed Soil,Low,861,Very Low Risk,0,0,3
+Gujarat,Rajkot,Groundnut,4.0,101,28,101,8.933187733423065,16.0,Mixed Soil,Low,873,Very Low Risk,0,0,7
+Gujarat,Rajkot,Sugarcane,4.0,101,27,202,2.3284831354447544,16.0,Mixed Soil,Low,741,Low Risk,1,1,23
+Gujarat,Rajkot,Bajra,4.0,42501,29,440,8.421878540076197,16.0,Mixed Soil,Low,592,Medium Risk,2,2,57
+Gujarat,Rajkot,Groundnut,4.0,368201,29,440,8.575685549853066,16.0,Mixed Soil,Low,461,High Risk,3,3,74
+Gujarat,Rajkot,Jowar,4.0,11101,29,440,8.284932192409784,16.0,Mixed Soil,Low,629,Medium Risk,2,2,57
+Gujarat,Rajkot,Maize,4.0,301,29,440,8.14867640224081,16.0,Mixed Soil,Low,517,Medium Risk,2,2,63
+Gujarat,Rajkot,Wheat,4.0,10101,23,13,7.434784474890697,16.0,Mixed Soil,Low,900,Very Low Risk,0,0,10
+Gujarat,Rajkot,Bajra,4.0,401,29,100,5.557704325585078,16.0,Mixed Soil,Low,872,Very Low Risk,0,0,1
+Gujarat,Rajkot,Groundnut,4.0,101,29,100,7.600880905115787,16.0,Mixed Soil,Low,864,Very Low Risk,0,0,13
+Gujarat,Rajkot,Sugarcane,4.0,101,27,184,3.744993699090247,16.0,Mixed Soil,Low,759,Low Risk,1,1,30
+Gujarat,Rajkot,Bajra,4.0,42501,29,441,5.690675805173591,16.0,Mixed Soil,Low,543,Medium Risk,2,2,68
+Gujarat,Rajkot,Groundnut,4.0,430701,29,441,6.238302471054385,16.0,Mixed Soil,Low,562,Medium Risk,2,2,56
+Gujarat,Rajkot,Jowar,4.0,11001,29,441,9.304343771838337,16.0,Mixed Soil,Low,693,Medium Risk,2,2,54
+Gujarat,Rajkot,Maize,4.0,1101,29,441,8.692893855800655,16.0,Mixed Soil,Low,685,Medium Risk,2,2,65
+Gujarat,Rajkot,Wheat,4.0,12801,23,14,9.696881942134604,16.0,Mixed Soil,Low,856,Very Low Risk,0,0,12
+Gujarat,Rajkot,Groundnut,4.0,101,28,99,5.068580854201538,16.0,Mixed Soil,Low,881,Very Low Risk,0,0,14
+Gujarat,Rajkot,Sugarcane,4.0,301,27,185,8.77094395152288,16.0,Mixed Soil,Low,731,Low Risk,1,1,29
+Gujarat,Rajkot,Bajra,4.0,40101,30,470,3.27656555964282,16.0,Mixed Soil,Low,585,Medium Risk,2,2,52
+Gujarat,Rajkot,Groundnut,4.0,369201,30,470,8.599730765449692,16.0,Mixed Soil,Low,134,Very High Risk,4,4,103
+Gujarat,Rajkot,Jowar,4.0,8201,30,470,3.6021373346407284,16.0,Mixed Soil,Low,646,Medium Risk,2,2,52
+Gujarat,Rajkot,Maize,4.0,1801,30,470,9.92895250900533,16.0,Mixed Soil,Low,618,Medium Risk,2,2,62
+Gujarat,Rajkot,Wheat,4.0,61901,24,13,5.565470952058536,16.0,Mixed Soil,Low,640,Medium Risk,2,2,58
+Gujarat,Rajkot,Groundnut,4.0,1501,29,110,4.273046440501396,16.0,Mixed Soil,Low,781,Low Risk,1,1,32
+Gujarat,Rajkot,Bajra,4.0,32801,28,440,6.359170420601719,16.0,Mixed Soil,Low,684,Medium Risk,2,2,67
+Gujarat,Rajkot,Groundnut,4.0,419801,28,440,3.1024618215317847,16.0,Mixed Soil,Low,458,High Risk,3,3,77
+Gujarat,Rajkot,Jowar,4.0,7401,28,440,9.701644086315667,16.0,Mixed Soil,Low,637,Medium Risk,2,2,51
+Gujarat,Rajkot,Maize,4.0,101,28,440,6.581801356641976,16.0,Mixed Soil,Low,674,Medium Risk,2,2,57
+Gujarat,Rajkot,Wheat,4.0,36201,23,12,7.336655838751315,16.0,Mixed Soil,Low,754,Low Risk,1,1,23
+Gujarat,Rajkot,Bajra,4.0,101,30,100,9.137158963512904,16.0,Mixed Soil,Low,861,Very Low Risk,0,0,4
+Gujarat,Rajkot,Groundnut,4.0,401,30,100,5.634263270458695,16.0,Mixed Soil,Low,859,Very Low Risk,0,0,10
+Gujarat,Rajkot,Bajra,4.0,34701,30,441,8.187410008670351,16.0,Mixed Soil,Low,533,Medium Risk,2,2,54
+Gujarat,Rajkot,Groundnut,4.0,381201,30,441,4.558785228723917,16.0,Mixed Soil,Low,281,Very High Risk,4,4,99
+Gujarat,Rajkot,Jowar,4.0,1401,30,441,8.83569608486172,16.0,Mixed Soil,Low,612,Medium Risk,2,2,67
+Gujarat,Rajkot,Maize,4.0,401,30,441,8.641620772192082,16.0,Mixed Soil,Low,601,Medium Risk,2,2,66
+Gujarat,Rajkot,Wheat,4.0,73701,23,13,3.56668041603203,16.0,Mixed Soil,Low,660,Medium Risk,2,2,66
+Gujarat,Rajkot,Bajra,4.0,101,29,103,7.29618678535714,16.0,Mixed Soil,Low,809,Low Risk,1,1,31
+Gujarat,Rajkot,Groundnut,4.0,801,29,103,5.358346933294052,16.0,Mixed Soil,Low,745,Low Risk,1,1,23
+Gujarat,Rajkot,Sugarcane,4.0,101,27,186,4.512489098518593,16.0,Mixed Soil,Low,817,Low Risk,1,1,29
+Gujarat,Rajkot,Bajra,4.0,29901,29,471,3.264800624979525,16.0,Mixed Soil,Low,683,Medium Risk,2,2,65
+Gujarat,Rajkot,Groundnut,4.0,402201,29,471,5.670507841529456,16.0,Mixed Soil,Low,399,High Risk,3,3,86
+Gujarat,Rajkot,Jowar,4.0,701,29,471,2.6931280176184336,16.0,Mixed Soil,Low,542,Medium Risk,2,2,58
+Gujarat,Rajkot,Maize,4.0,801,29,471,4.266164592919807,16.0,Mixed Soil,Low,610,Medium Risk,2,2,53
+Gujarat,Rajkot,Wheat,4.0,84201,23,12,5.230741015523673,16.0,Mixed Soil,Low,520,Medium Risk,2,2,56
+Gujarat,Rajkot,Bajra,4.0,601,30,108,8.302796200753392,16.0,Mixed Soil,Low,809,Low Risk,1,1,25
+Gujarat,Rajkot,Groundnut,4.0,2101,30,108,8.096193548924663,16.0,Mixed Soil,Low,833,Low Risk,1,1,20
+Gujarat,Rajkot,Sugarcane,4.0,301,27,197,4.130304908145467,16.0,Mixed Soil,Low,710,Low Risk,1,1,27
+Gujarat,Rajkot,Bajra,4.0,18101,29,424,6.201253015944084,16.0,Mixed Soil,Low,507,Medium Risk,2,2,64
+Gujarat,Rajkot,Groundnut,4.0,382401,29,424,3.628467263824212,16.0,Mixed Soil,Low,152,Very High Risk,4,4,109
+Gujarat,Rajkot,Jowar,4.0,1801,29,424,4.569690182665364,16.0,Mixed Soil,Low,501,Medium Risk,2,2,54
+Gujarat,Rajkot,Maize,4.0,701,29,424,7.052097946021726,16.0,Mixed Soil,Low,678,Medium Risk,2,2,63
+Gujarat,Rajkot,Jowar,4.0,4501,23,14,2.9025907999332388,16.0,Mixed Soil,Low,869,Very Low Risk,0,0,8
+Gujarat,Rajkot,Wheat,4.0,90901,23,14,9.819625313866982,16.0,Mixed Soil,Low,577,Medium Risk,2,2,63
+Gujarat,Rajkot,Bajra,4.0,401,29,101,6.079658552447452,16.0,Mixed Soil,Low,895,Very Low Risk,0,0,0
+Gujarat,Rajkot,Groundnut,4.0,5101,29,101,4.554529758554934,16.0,Mixed Soil,Low,757,Low Risk,1,1,23
+Gujarat,Rajkot,Sugarcane,4.0,201,27,179,7.445016055614061,16.0,Mixed Soil,Low,701,Low Risk,1,1,30
+Gujarat,Rajkot,Bajra,4.0,12901,29,424,3.916280299362047,16.0,Mixed Soil,Low,612,Medium Risk,2,2,58
+Gujarat,Rajkot,Groundnut,4.0,382601,29,424,7.083354128254696,16.0,Mixed Soil,Low,466,High Risk,3,3,86
+Gujarat,Rajkot,Jowar,4.0,2801,29,424,2.426665983950566,16.0,Mixed Soil,Low,684,Medium Risk,2,2,59
+Gujarat,Rajkot,Maize,4.0,801,29,424,3.861709963946743,16.0,Mixed Soil,Low,657,Medium Risk,2,2,61
+Gujarat,Rajkot,Jowar,4.0,201,23,12,4.087330640904208,16.0,Mixed Soil,Low,875,Very Low Risk,0,0,13
+Gujarat,Rajkot,Wheat,4.0,97001,23,12,4.818276203173323,16.0,Mixed Soil,Low,611,Medium Risk,2,2,64
+Gujarat,Rajkot,Bajra,4.0,401,29,103,2.1001872270208883,16.0,Mixed Soil,Low,721,Low Risk,1,1,21
+Gujarat,Rajkot,Groundnut,4.0,4201,29,103,2.9094019956639583,16.0,Mixed Soil,Low,822,Low Risk,1,1,34
+Gujarat,Rajkot,Sugarcane,4.0,201,27,180,6.44155743564899,16.0,Mixed Soil,Low,743,Low Risk,1,1,22
+Gujarat,Rajkot,Bajra,4.0,17501,29,491,2.339589420052067,16.0,Mixed Soil,Low,630,Medium Risk,2,2,56
+Gujarat,Rajkot,Groundnut,4.0,366501,29,491,2.433768466932073,16.0,Mixed Soil,Low,645,Medium Risk,2,2,65
+Gujarat,Rajkot,Jowar,4.0,3101,29,491,2.12526069673593,16.0,Mixed Soil,Low,638,Medium Risk,2,2,68
+Gujarat,Rajkot,Maize,4.0,901,29,491,2.6771517502559714,16.0,Mixed Soil,Low,530,Medium Risk,2,2,68
+Gujarat,Rajkot,Jowar,4.0,301,23,13,5.44670191118058,16.0,Mixed Soil,Low,876,Very Low Risk,0,0,3
+Gujarat,Rajkot,Wheat,4.0,40601,23,13,2.298836738920886,16.0,Mixed Soil,Low,820,Low Risk,1,1,31
+Gujarat,Rajkot,Bajra,4.0,401,29,106,8.95915414193166,16.0,Mixed Soil,Low,780,Low Risk,1,1,22
+Gujarat,Rajkot,Groundnut,4.0,901,29,106,5.782624946753651,16.0,Mixed Soil,Low,766,Low Risk,1,1,22
+Gujarat,Rajkot,Sugarcane,4.0,201,27,203,5.338544375810648,16.0,Mixed Soil,Low,842,Low Risk,1,1,33
+Gujarat,Rajkot,Bajra,4.0,6801,29,426,2.9618651935596594,16.0,Mixed Soil,Low,509,Medium Risk,2,2,66
+Gujarat,Rajkot,Groundnut,4.0,306201,29,426,8.394362382207241,16.0,Mixed Soil,Low,165,Very High Risk,4,4,102
+Gujarat,Rajkot,Jowar,4.0,2201,29,426,7.889244609498437,16.0,Mixed Soil,Low,680,Medium Risk,2,2,69
+Gujarat,Rajkot,Maize,4.0,6001,29,426,6.680599477869204,16.0,Mixed Soil,Low,676,Medium Risk,2,2,59
+Gujarat,Rajkot,Wheat,4.0,170201,23,12,9.926622792133276,16.0,Mixed Soil,Low,319,High Risk,3,3,98
+Gujarat,Rajkot,Bajra,4.0,1001,29,105,6.296053772553696,16.0,Mixed Soil,Low,704,Low Risk,1,1,33
+Gujarat,Rajkot,Groundnut,4.0,15001,29,105,3.347817547163032,16.0,Mixed Soil,Low,794,Low Risk,1,1,25
+Gujarat,Rajkot,Sugarcane,4.0,201,27,181,3.4551101369118795,16.0,Mixed Soil,Low,827,Low Risk,1,1,20
+Gujarat,Rajkot,Bajra,4.0,4701,29,411,8.908909164330815,16.0,Mixed Soil,Low,678,Medium Risk,2,2,59
+Gujarat,Rajkot,Groundnut,4.0,272601,29,411,6.35657828502647,16.0,Mixed Soil,Low,477,High Risk,3,3,70
+Gujarat,Rajkot,Jowar,4.0,101,29,411,8.073774546371837,16.0,Mixed Soil,Low,689,Medium Risk,2,2,63
+Gujarat,Rajkot,Wheat,4.0,113801,23,14,2.0281961098257044,16.0,Mixed Soil,Low,564,Medium Risk,2,2,68
+Gujarat,Rajkot,Bajra,4.0,1101,29,110,4.831191709974507,16.0,Mixed Soil,Low,793,Low Risk,1,1,34
+Gujarat,Rajkot,Groundnut,4.0,15001,29,110,5.327845095985278,16.0,Mixed Soil,Low,718,Low Risk,1,1,21
+Gujarat,Rajkot,Sugarcane,4.0,101,27,178,8.223237603941485,16.0,Mixed Soil,Low,737,Low Risk,1,1,33
+Gujarat,Rajkot,Bajra,4.0,4101,29,467,5.727795541789144,16.0,Mixed Soil,Low,687,Medium Risk,2,2,66
+Gujarat,Rajkot,Groundnut,4.0,316901,29,467,5.300928297903894,16.0,Mixed Soil,Low,555,Medium Risk,2,2,57
+Gujarat,Rajkot,Maize,4.0,401,29,467,7.472497998722742,16.0,Mixed Soil,Low,550,Medium Risk,2,2,55
+Gujarat,Rajkot,Wheat,4.0,7201,24,12,8.365965103694956,16.0,Mixed Soil,Low,877,Very Low Risk,0,0,7
+Gujarat,Rajkot,Bajra,4.0,101,30,106,4.342739115621649,16.0,Mixed Soil,Low,807,Low Risk,1,1,21
+Gujarat,Rajkot,Groundnut,4.0,301,30,106,7.226030683748375,16.0,Mixed Soil,Low,736,Low Risk,1,1,21
+Gujarat,Surat,Bajra,4.0,301,23,1072,6.72025482429308,16.0,Mixed Soil,Low,166,Very High Risk,4,4,100
+Gujarat,Surat,Groundnut,4.0,9801,23,1072,5.8622107334607545,16.0,Mixed Soil,Low,111,Very High Risk,4,4,109
+Gujarat,Surat,Jowar,4.0,29201,23,1072,5.083772915009137,16.0,Mixed Soil,Low,252,Very High Risk,4,4,105
+Gujarat,Surat,Jowar,4.0,4101,20,13,9.859111419891091,16.0,Mixed Soil,Low,891,Very Low Risk,0,0,5
+Gujarat,Surat,Wheat,4.0,5301,20,13,7.880934839288181,16.0,Mixed Soil,Low,863,Very Low Risk,0,0,9
+Gujarat,Surat,Groundnut,4.0,10001,24,230,7.2887223500585,16.0,Mixed Soil,Low,848,Low Risk,1,1,30
+Gujarat,Surat,Maize,4.0,1301,22,438,7.869844974532209,16.0,Mixed Soil,Low,633,Medium Risk,2,2,63
+Gujarat,Surat,Rice,4.0,81901,22,438,5.803249653615161,16.0,Mixed Soil,Low,532,Medium Risk,2,2,61
+Gujarat,Surat,Sugarcane,4.0,95201,22,438,7.464897081093148,16.0,Mixed Soil,Low,221,Very High Risk,4,4,99
+Gujarat,Surat,Groundnut,4.0,12701,23,1077,4.013123518635707,16.0,Mixed Soil,Low,137,Very High Risk,4,4,105
+Gujarat,Surat,Jowar,4.0,25701,23,1077,7.617072162378623,16.0,Mixed Soil,Low,181,Very High Risk,4,4,101
+Gujarat,Surat,Maize,4.0,1301,23,1077,6.90324958639325,16.0,Mixed Soil,Low,146,Very High Risk,4,4,95
+Gujarat,Surat,Rice,4.0,80501,23,1077,3.668084768897321,16.0,Mixed Soil,Low,114,Very High Risk,4,4,101
+Gujarat,Surat,Jowar,4.0,4101,19,14,8.015431830605468,16.0,Mixed Soil,Low,898,Very Low Risk,0,0,12
+Gujarat,Surat,Wheat,4.0,7201,19,14,9.3539979890325,16.0,Mixed Soil,Low,884,Very Low Risk,0,0,0
+Gujarat,Surat,Groundnut,4.0,9901,24,226,6.764446948169093,16.0,Mixed Soil,Low,781,Low Risk,1,1,31
+Gujarat,Surat,Sugarcane,4.0,113301,22,439,2.776998802397445,16.0,Mixed Soil,Low,216,Very High Risk,4,4,109
+Gujarat,Surat,Groundnut,4.0,14001,22,1071,4.6231851403220166,16.0,Mixed Soil,Low,163,Very High Risk,4,4,100
+Gujarat,Surat,Jowar,4.0,33701,22,1071,5.442574456715632,16.0,Mixed Soil,Low,164,Very High Risk,4,4,109
+Gujarat,Surat,Maize,4.0,1001,22,1071,6.127953801752408,16.0,Mixed Soil,Low,189,Very High Risk,4,4,97
+Gujarat,Surat,Rice,4.0,76701,22,1071,2.3720146153994106,16.0,Mixed Soil,Low,242,Very High Risk,4,4,107
+Gujarat,Surat,Jowar,4.0,3901,19,14,6.110296005480607,16.0,Mixed Soil,Low,879,Very Low Risk,0,0,11
+Gujarat,Surat,Wheat,4.0,6201,19,14,4.931863293168258,16.0,Mixed Soil,Low,867,Very Low Risk,0,0,7
+Gujarat,Surat,Groundnut,4.0,10801,23,231,2.307773320294026,16.0,Mixed Soil,Low,820,Low Risk,1,1,25
+Gujarat,Surat,Sugarcane,4.0,120401,22,439,9.23643058242883,16.0,Mixed Soil,Low,157,Very High Risk,4,4,104
+Gujarat,Surat,Bajra,4.0,301,22,1061,4.996253343442328,16.0,Mixed Soil,Low,411,High Risk,3,3,88
+Gujarat,Surat,Groundnut,4.0,11501,22,1061,6.658131728323722,16.0,Mixed Soil,Low,225,Very High Risk,4,4,106
+Gujarat,Surat,Jowar,4.0,30101,22,1061,7.083721331915815,16.0,Mixed Soil,Low,254,Very High Risk,4,4,99
+Gujarat,Surat,Maize,4.0,801,22,1061,5.546069424649693,16.0,Mixed Soil,Low,465,High Risk,3,3,71
+Gujarat,Surat,Rice,4.0,70601,22,1061,9.613414130951956,16.0,Mixed Soil,Low,286,Very High Risk,4,4,106
+Gujarat,Surat,Jowar,4.0,3901,20,15,7.748977884943383,16.0,Mixed Soil,Low,857,Very Low Risk,0,0,8
+Gujarat,Surat,Wheat,4.0,5401,20,15,6.166945847981439,16.0,Mixed Soil,Low,886,Very Low Risk,0,0,13
+Gujarat,Surat,Groundnut,4.0,6201,23,231,5.340594541592331,16.0,Mixed Soil,Low,791,Low Risk,1,1,29
+Gujarat,Surat,Rice,4.0,2901,23,231,9.276464868548668,16.0,Mixed Soil,Low,816,Low Risk,1,1,25
+Gujarat,Surat,Sugarcane,4.0,119001,22,436,9.946950132321533,16.0,Mixed Soil,Low,159,Very High Risk,4,4,102
+Gujarat,Surat,Bajra,4.0,201,22,1080,8.928059677876512,16.0,Mixed Soil,Low,297,Very High Risk,4,4,95
+Gujarat,Surat,Groundnut,4.0,13101,22,1080,9.29571684715694,16.0,Mixed Soil,Low,237,Very High Risk,4,4,105
+Gujarat,Surat,Jowar,4.0,51201,22,1080,7.729402853766689,16.0,Mixed Soil,Low,244,Very High Risk,4,4,95
+Gujarat,Surat,Maize,4.0,1501,22,1080,9.943151065452309,16.0,Mixed Soil,Low,101,Very High Risk,4,4,104
+Gujarat,Surat,Rice,4.0,83501,22,1080,7.638960628621835,16.0,Mixed Soil,Low,215,Very High Risk,4,4,100
+Gujarat,Surat,Jowar,4.0,4001,19,15,7.7294391539275775,16.0,Mixed Soil,Low,888,Very Low Risk,0,0,11
+Gujarat,Surat,Wheat,4.0,4801,19,15,9.172075625971424,16.0,Mixed Soil,Low,893,Very Low Risk,0,0,9
+Gujarat,Surat,Groundnut,4.0,7201,24,300,6.815228232484336,16.0,Mixed Soil,Low,558,Medium Risk,2,2,56
+Gujarat,Surat,Rice,4.0,2901,24,300,9.112627757192882,16.0,Mixed Soil,Low,692,Medium Risk,2,2,56
+Gujarat,Surat,Sugarcane,4.0,113601,22,465,2.616716183819686,16.0,Mixed Soil,Low,160,Very High Risk,4,4,108
+Gujarat,Surat,Bajra,4.0,201,23,1070,7.223485302377241,16.0,Mixed Soil,Low,287,Very High Risk,4,4,108
+Gujarat,Surat,Groundnut,4.0,7601,23,1070,4.789554836213338,16.0,Mixed Soil,Low,242,Very High Risk,4,4,99
+Gujarat,Surat,Jowar,4.0,26001,23,1070,9.948505148188666,16.0,Mixed Soil,Low,146,Very High Risk,4,4,106
+Gujarat,Surat,Maize,4.0,2401,23,1070,5.422358658859372,16.0,Mixed Soil,Low,165,Very High Risk,4,4,104
+Gujarat,Surat,Rice,4.0,73501,23,1070,9.924693003446274,16.0,Mixed Soil,Low,243,Very High Risk,4,4,104
+Gujarat,Surat,Jowar,4.0,5501,19,14,8.054429960029061,16.0,Mixed Soil,Low,859,Very Low Risk,0,0,12
+Gujarat,Surat,Wheat,4.0,6701,19,14,2.543701353562475,16.0,Mixed Soil,Low,873,Very Low Risk,0,0,8
+Gujarat,Surat,Bajra,4.0,101,23,239,5.086698996793511,16.0,Mixed Soil,Low,721,Low Risk,1,1,26
+Gujarat,Surat,Groundnut,4.0,7701,23,239,2.806008507180075,16.0,Mixed Soil,Low,837,Low Risk,1,1,26
+Gujarat,Surat,Rice,4.0,5101,23,239,7.0334614214527456,16.0,Mixed Soil,Low,509,Medium Risk,2,2,61
+Gujarat,Surat,Sugarcane,4.0,118301,22,441,8.770114199418167,16.0,Mixed Soil,Low,173,Very High Risk,4,4,96
+Gujarat,Surat,Bajra,4.0,301,23,1070,7.381972163600698,16.0,Mixed Soil,Low,144,Very High Risk,4,4,106
+Gujarat,Surat,Groundnut,4.0,11001,23,1070,8.05485082283202,16.0,Mixed Soil,Low,174,Very High Risk,4,4,101
+Gujarat,Surat,Jowar,4.0,36601,23,1070,4.077232397592861,16.0,Mixed Soil,Low,286,Very High Risk,4,4,99
+Gujarat,Surat,Maize,4.0,1901,23,1070,7.558856979987175,16.0,Mixed Soil,Low,117,Very High Risk,4,4,97
+Gujarat,Surat,Rice,4.0,80001,23,1070,8.16230431628082,16.0,Mixed Soil,Low,134,Very High Risk,4,4,96
+Gujarat,Surat,Jowar,4.0,8901,19,13,7.898478718667408,16.0,Mixed Soil,Low,874,Very Low Risk,0,0,8
+Gujarat,Surat,Wheat,4.0,6701,19,13,2.4731069775652994,16.0,Mixed Soil,Low,861,Very Low Risk,0,0,8
+Gujarat,Surat,Groundnut,4.0,9501,23,230,5.028342049667527,16.0,Mixed Soil,Low,780,Low Risk,1,1,30
+Gujarat,Surat,Rice,4.0,5301,23,230,8.331952311976725,16.0,Mixed Soil,Low,837,Low Risk,1,1,24
+Gujarat,Surat,Sugarcane,4.0,102701,22,437,6.686879607019833,16.0,Mixed Soil,Low,291,Very High Risk,4,4,100
+Gujarat,Surat,Bajra,4.0,201,22,1071,3.326409100771816,16.0,Mixed Soil,Low,268,Very High Risk,4,4,101
+Gujarat,Surat,Groundnut,4.0,7801,22,1071,7.666867596686404,16.0,Mixed Soil,Low,222,Very High Risk,4,4,108
+Gujarat,Surat,Jowar,4.0,27101,22,1071,9.88597086001178,16.0,Mixed Soil,Low,272,Very High Risk,4,4,104
+Gujarat,Surat,Maize,4.0,2001,22,1071,6.897458515740811,16.0,Mixed Soil,Low,185,Very High Risk,4,4,97
+Gujarat,Surat,Rice,4.0,79301,22,1071,4.572522005447929,16.0,Mixed Soil,Low,251,Very High Risk,4,4,108
+Gujarat,Surat,Jowar,4.0,9201,19,14,2.055042424062578,16.0,Mixed Soil,Low,895,Very Low Risk,0,0,7
+Gujarat,Surat,Wheat,4.0,5501,19,14,7.194921976146026,16.0,Mixed Soil,Low,877,Very Low Risk,0,0,8
+Gujarat,Surat,Bajra,4.0,101,24,221,2.2725957831462607,16.0,Mixed Soil,Low,773,Low Risk,1,1,27
+Gujarat,Surat,Groundnut,4.0,8701,24,221,8.747049149388205,16.0,Mixed Soil,Low,831,Low Risk,1,1,22
+Gujarat,Surat,Rice,4.0,4701,24,221,8.889345003785674,16.0,Mixed Soil,Low,723,Low Risk,1,1,28
+Gujarat,Surat,Sugarcane,4.0,116501,21,435,4.897386232577408,16.0,Mixed Soil,Low,232,Very High Risk,4,4,98
+Gujarat,Surat,Bajra,4.0,301,23,1053,3.799890275745571,16.0,Mixed Soil,Low,370,High Risk,3,3,85
+Gujarat,Surat,Groundnut,4.0,8801,23,1053,9.010683394471526,16.0,Mixed Soil,Low,330,High Risk,3,3,85
+Gujarat,Surat,Jowar,4.0,25201,23,1053,8.577382810096326,16.0,Mixed Soil,Low,231,Very High Risk,4,4,100
+Gujarat,Surat,Maize,4.0,2001,23,1053,9.109295510342829,16.0,Mixed Soil,Low,426,High Risk,3,3,78
+Gujarat,Surat,Rice,4.0,68301,23,1053,4.277305379934564,16.0,Mixed Soil,Low,176,Very High Risk,4,4,103
+Gujarat,Surat,Jowar,4.0,7701,19,13,4.721670974463665,16.0,Mixed Soil,Low,869,Very Low Risk,0,0,2
+Gujarat,Surat,Wheat,4.0,6501,19,13,7.629303119045652,16.0,Mixed Soil,Low,871,Very Low Risk,0,0,10
+Gujarat,Surat,Groundnut,4.0,10201,23,213,3.697173537911959,16.0,Mixed Soil,Low,850,Low Risk,1,1,20
+Gujarat,Surat,Rice,4.0,3701,23,213,5.113023165065609,16.0,Mixed Soil,Low,758,Low Risk,1,1,29
+Gujarat,Surat,Sugarcane,4.0,130601,22,426,5.484096203514346,16.0,Mixed Soil,Low,135,Very High Risk,4,4,96
+Gujarat,Surat,Bajra,4.0,1201,23,1310,7.528059720663459,16.0,Mixed Soil,Low,241,Very High Risk,4,4,104
+Gujarat,Surat,Groundnut,4.0,7401,23,1310,3.652204380349768,16.0,Mixed Soil,Low,300,Very High Risk,4,4,96
+Gujarat,Surat,Jowar,4.0,25001,23,1310,7.384083005153614,16.0,Mixed Soil,Low,144,Very High Risk,4,4,98
+Gujarat,Surat,Maize,4.0,2001,23,1310,6.600451059886535,16.0,Mixed Soil,Low,111,Very High Risk,4,4,98
+Gujarat,Surat,Rice,4.0,72601,23,1310,2.132947245020592,16.0,Mixed Soil,Low,194,Very High Risk,4,4,105
+Gujarat,Surat,Jowar,4.0,6601,19,14,7.447460108126751,16.0,Mixed Soil,Low,899,Very Low Risk,0,0,13
+Gujarat,Surat,Wheat,4.0,6901,19,14,2.940610564185759,16.0,Mixed Soil,Low,852,Very Low Risk,0,0,0
+Gujarat,Surat,Groundnut,4.0,9301,24,228,4.087235220866763,16.0,Mixed Soil,Low,850,Low Risk,1,1,20
+Gujarat,Surat,Rice,4.0,5101,24,228,4.182745077083921,16.0,Mixed Soil,Low,791,Low Risk,1,1,24
+Gujarat,Surat,Sugarcane,4.0,119601,22,517,8.387001709319328,16.0,Mixed Soil,Low,270,Very High Risk,4,4,97
+Gujarat,Surat,Bajra,4.0,401,22,1174,9.088271327543756,16.0,Mixed Soil,Low,265,Very High Risk,4,4,98
+Gujarat,Surat,Groundnut,4.0,7801,22,1174,7.414738013947842,16.0,Mixed Soil,Low,300,Very High Risk,4,4,95
+Gujarat,Surat,Jowar,4.0,34301,22,1174,2.828785568051649,16.0,Mixed Soil,Low,272,Very High Risk,4,4,96
+Gujarat,Surat,Maize,4.0,3501,22,1174,7.952297007455285,16.0,Mixed Soil,Low,297,Very High Risk,4,4,104
+Gujarat,Surat,Rice,4.0,80501,22,1174,9.960230858403971,16.0,Mixed Soil,Low,222,Very High Risk,4,4,109
+Gujarat,Surat,Jowar,4.0,6201,19,14,5.551690387469812,16.0,Mixed Soil,Low,895,Very Low Risk,0,0,12
+Gujarat,Surat,Wheat,4.0,9701,19,14,8.795682390369993,16.0,Mixed Soil,Low,898,Very Low Risk,0,0,4
+Gujarat,Surat,Bajra,4.0,201,23,219,3.1031279237452907,16.0,Mixed Soil,Low,785,Low Risk,1,1,29
+Gujarat,Surat,Groundnut,4.0,6501,23,219,7.241818079203576,16.0,Mixed Soil,Low,770,Low Risk,1,1,28
+Gujarat,Surat,Rice,4.0,7901,23,219,9.385121209080962,16.0,Mixed Soil,Low,742,Low Risk,1,1,30
+Gujarat,Surat,Sugarcane,4.0,125901,21,469,5.212617135116248,16.0,Mixed Soil,Low,206,Very High Risk,4,4,107
+Gujarat,Surat,Bajra,4.0,101,23,1131,5.769185169743269,16.0,Mixed Soil,Low,227,Very High Risk,4,4,103
+Gujarat,Surat,Groundnut,4.0,2901,23,1131,5.889813834733304,16.0,Mixed Soil,Low,288,Very High Risk,4,4,105
+Gujarat,Surat,Jowar,4.0,16201,23,1131,3.964465673313306,16.0,Mixed Soil,Low,297,Very High Risk,4,4,109
+Gujarat,Surat,Maize,4.0,1101,23,1131,8.780261037047449,16.0,Mixed Soil,Low,265,Very High Risk,4,4,104
+Gujarat,Surat,Rice,4.0,58401,23,1131,5.868950185354726,16.0,Mixed Soil,Low,161,Very High Risk,4,4,96
+Gujarat,Surat,Jowar,4.0,2501,19,16,2.868758727821459,16.0,Mixed Soil,Low,861,Very Low Risk,0,0,11
+Gujarat,Surat,Wheat,4.0,6101,19,16,2.7681602575161923,16.0,Mixed Soil,Low,891,Very Low Risk,0,0,9
+Gujarat,Surat,Groundnut,4.0,3401,24,205,6.962735225648318,16.0,Mixed Soil,Low,756,Low Risk,1,1,28
+Gujarat,Surat,Rice,4.0,9701,24,205,5.742182051951182,16.0,Mixed Soil,Low,798,Low Risk,1,1,32
+Gujarat,Surat,Sugarcane,4.0,112401,22,451,8.776512139629954,16.0,Mixed Soil,Low,129,Very High Risk,4,4,97
+Gujarat,Surat,Bajra,4.0,401,22,1069,6.202176561124919,16.0,Mixed Soil,Low,247,Very High Risk,4,4,95
+Gujarat,Surat,Groundnut,4.0,4901,22,1069,8.47887322744743,16.0,Mixed Soil,Low,185,Very High Risk,4,4,102
+Gujarat,Surat,Jowar,4.0,22301,22,1069,6.425019025858621,16.0,Mixed Soil,Low,132,Very High Risk,4,4,97
+Gujarat,Surat,Maize,4.0,801,22,1069,4.0897864242599375,16.0,Mixed Soil,Low,119,Very High Risk,4,4,97
+Gujarat,Surat,Rice,4.0,54601,22,1069,4.136778209247227,16.0,Mixed Soil,Low,264,Very High Risk,4,4,105
+Gujarat,Surat,Jowar,4.0,6401,19,13,8.768285471754346,16.0,Mixed Soil,Low,863,Very Low Risk,0,0,2
+Gujarat,Surat,Wheat,4.0,9201,19,13,3.852453173573101,16.0,Mixed Soil,Low,854,Very Low Risk,0,0,6
+Gujarat,Surat,Bajra,4.0,101,24,226,4.950075564322599,16.0,Mixed Soil,Low,777,Low Risk,1,1,23
+Gujarat,Surat,Groundnut,4.0,3101,24,226,2.820585534087125,16.0,Mixed Soil,Low,774,Low Risk,1,1,24
+Gujarat,Surat,Rice,4.0,6201,24,226,8.555767967159799,16.0,Mixed Soil,Low,703,Low Risk,1,1,29
+Gujarat,Surat,Sugarcane,4.0,101401,21,436,6.315127966770039,16.0,Mixed Soil,Low,125,Very High Risk,4,4,96
+Gujarat,Surat,Bajra,4.0,301,23,1076,3.3157207085608773,16.0,Mixed Soil,Low,147,Very High Risk,4,4,103
+Gujarat,Surat,Groundnut,4.0,5001,23,1076,3.5715365843772275,16.0,Mixed Soil,Low,154,Very High Risk,4,4,105
+Gujarat,Surat,Jowar,4.0,16301,23,1076,7.043468399582949,16.0,Mixed Soil,Low,296,Very High Risk,4,4,103
+Gujarat,Surat,Maize,4.0,901,23,1076,9.687754879851024,16.0,Mixed Soil,Low,111,Very High Risk,4,4,103
+Gujarat,Surat,Rice,4.0,60701,23,1076,2.102987365788743,16.0,Mixed Soil,Low,287,Very High Risk,4,4,106
+Gujarat,Surat,Jowar,4.0,2401,19,15,8.97326893011245,16.0,Mixed Soil,Low,887,Very Low Risk,0,0,9
+Gujarat,Surat,Wheat,4.0,6201,19,15,4.977479158684487,16.0,Mixed Soil,Low,886,Very Low Risk,0,0,1
+Gujarat,Surat,Groundnut,4.0,3201,23,225,5.340135737153344,16.0,Mixed Soil,Low,827,Low Risk,1,1,28
+Gujarat,Surat,Maize,4.0,901,23,225,6.592069511136127,16.0,Mixed Soil,Low,703,Low Risk,1,1,34
+Gujarat,Surat,Rice,4.0,18901,23,225,3.348506787482883,16.0,Mixed Soil,Low,513,Medium Risk,2,2,65
+Gujarat,Surat,Sugarcane,4.0,98901,22,438,7.374139324834849,16.0,Mixed Soil,Low,151,Very High Risk,4,4,98
+Gujarat,Surat,Groundnut,4.0,4801,22,1079,6.922275208571193,16.0,Mixed Soil,Low,256,Very High Risk,4,4,99
+Gujarat,Surat,Jowar,4.0,16501,22,1079,4.408017038657734,16.0,Mixed Soil,Low,247,Very High Risk,4,4,105
+Gujarat,Surat,Maize,4.0,1001,22,1079,2.07703878937933,16.0,Mixed Soil,Low,130,Very High Risk,4,4,98
+Gujarat,Surat,Rice,4.0,52301,22,1079,9.12184287494329,16.0,Mixed Soil,Low,100,Very High Risk,4,4,104
+Gujarat,Surat,Jowar,4.0,1701,19,14,6.051638709064453,16.0,Mixed Soil,Low,896,Very Low Risk,0,0,5
+Gujarat,Surat,Maize,4.0,1001,19,14,9.849048433681158,16.0,Mixed Soil,Low,869,Very Low Risk,0,0,11
+Gujarat,Surat,Wheat,4.0,8001,19,14,8.171827878762318,16.0,Mixed Soil,Low,872,Very Low Risk,0,0,5
+Gujarat,Surat,Groundnut,4.0,3201,23,230,5.959037920936287,16.0,Mixed Soil,Low,757,Low Risk,1,1,28
+Gujarat,Surat,Maize,4.0,1001,23,230,9.09307666955586,16.0,Mixed Soil,Low,826,Low Risk,1,1,23
+Gujarat,Surat,Rice,4.0,19001,23,230,7.759523800425019,16.0,Mixed Soil,Low,699,Medium Risk,2,2,51
+Gujarat,Surat,Sugarcane,4.0,105901,21,441,9.934161714497456,16.0,Mixed Soil,Low,153,Very High Risk,4,4,104
+Gujarat,Surat,Groundnut,4.0,801,23,1515,9.000720050614785,16.0,Mixed Soil,Low,116,Very High Risk,4,4,100
+Gujarat,Surat,Jowar,4.0,6401,23,1515,8.700234529433057,16.0,Mixed Soil,Low,300,Very High Risk,4,4,109
+Gujarat,Surat,Maize,4.0,1401,23,1515,8.74012837178273,16.0,Mixed Soil,Low,194,Very High Risk,4,4,109
+Gujarat,Surat,Rice,4.0,39701,23,1515,5.04927930726448,16.0,Mixed Soil,Low,292,Very High Risk,4,4,106
+Gujarat,Surat,Jowar,4.0,2701,19,15,5.854047608242538,16.0,Mixed Soil,Low,874,Very Low Risk,0,0,13
+Gujarat,Surat,Wheat,4.0,8101,19,15,5.476679994507446,16.0,Mixed Soil,Low,881,Very Low Risk,0,0,4
+Gujarat,Surat,Groundnut,4.0,1101,24,236,6.159304220398704,16.0,Mixed Soil,Low,735,Low Risk,1,1,23
+Gujarat,Surat,Rice,4.0,8901,24,236,7.647215696738222,16.0,Mixed Soil,Low,579,Medium Risk,2,2,66
+Gujarat,Surat,Sugarcane,4.0,84401,22,589,5.33572884917734,16.0,Mixed Soil,Low,209,Very High Risk,4,4,100
+Gujarat,Tapi,Groundnut,4.0,2901,26,1254,5.89971903092515,16.0,Mixed Soil,Low,295,Very High Risk,4,4,108
+Gujarat,Tapi,Jowar,4.0,20201,26,1254,8.026012128775232,16.0,Mixed Soil,Low,298,Very High Risk,4,4,102
+Gujarat,Tapi,Maize,4.0,1601,26,1254,4.23079424691175,16.0,Mixed Soil,Low,142,Very High Risk,4,4,99
+Gujarat,Tapi,Rice,4.0,25701,26,1254,6.559644426195376,16.0,Mixed Soil,Low,282,Very High Risk,4,4,102
+Gujarat,Tapi,Jowar,4.0,4101,21,15,2.387743433572089,16.0,Mixed Soil,Low,864,Very Low Risk,0,0,2
+Gujarat,Tapi,Wheat,4.0,4901,21,15,7.819294626985251,16.0,Mixed Soil,Low,873,Very Low Risk,0,0,5
+Gujarat,Tapi,Groundnut,4.0,5901,27,265,9.249496459396884,16.0,Mixed Soil,Low,520,Medium Risk,2,2,62
+Gujarat,Tapi,Rice,4.0,701,27,265,6.107613629250055,16.0,Mixed Soil,Low,778,Low Risk,1,1,22
+Gujarat,Tapi,Sugarcane,4.0,19501,24,511,4.126023363011344,16.0,Mixed Soil,Low,247,Very High Risk,4,4,105
+Gujarat,Tapi,Groundnut,4.0,2501,25,1291,6.349571885455156,16.0,Mixed Soil,Low,158,Very High Risk,4,4,102
+Gujarat,Tapi,Jowar,4.0,25301,25,1291,6.708294599014673,16.0,Mixed Soil,Low,215,Very High Risk,4,4,98
+Gujarat,Tapi,Maize,4.0,1401,25,1291,6.074468784453238,16.0,Mixed Soil,Low,126,Very High Risk,4,4,109
+Gujarat,Tapi,Rice,4.0,29401,25,1291,2.4549347127127588,16.0,Mixed Soil,Low,268,Very High Risk,4,4,108
+Gujarat,Tapi,Jowar,4.0,2501,21,16,2.625922067791836,16.0,Mixed Soil,Low,898,Very Low Risk,0,0,14
+Gujarat,Tapi,Wheat,4.0,4001,21,16,5.277421999423744,16.0,Mixed Soil,Low,851,Very Low Risk,0,0,1
+Gujarat,Tapi,Bajra,4.0,101,26,243,9.108037327390914,16.0,Mixed Soil,Low,737,Low Risk,1,1,22
+Gujarat,Tapi,Groundnut,4.0,5101,26,243,2.080312031789928,16.0,Mixed Soil,Low,737,Low Risk,1,1,29
+Gujarat,Tapi,Rice,4.0,701,26,243,8.268100911517063,16.0,Mixed Soil,Low,841,Low Risk,1,1,26
+Gujarat,Tapi,Sugarcane,4.0,15801,24,516,6.216379319775241,16.0,Mixed Soil,Low,146,Very High Risk,4,4,109
+Gujarat,Tapi,Bajra,4.0,101,25,1226,2.703487454666143,16.0,Mixed Soil,Low,297,Very High Risk,4,4,96
+Gujarat,Tapi,Groundnut,4.0,3101,25,1226,9.470212922697838,16.0,Mixed Soil,Low,156,Very High Risk,4,4,102
+Gujarat,Tapi,Jowar,4.0,13101,25,1226,7.992661866720663,16.0,Mixed Soil,Low,270,Very High Risk,4,4,99
+Gujarat,Tapi,Maize,4.0,1001,25,1226,6.366601688870614,16.0,Mixed Soil,Low,130,Very High Risk,4,4,107
+Gujarat,Tapi,Rice,4.0,35401,25,1226,9.11829263740115,16.0,Mixed Soil,Low,109,Very High Risk,4,4,96
+Gujarat,Tapi,Jowar,4.0,4801,22,18,3.740615488967233,16.0,Mixed Soil,Low,871,Very Low Risk,0,0,0
+Gujarat,Tapi,Wheat,4.0,5301,22,18,7.535239900360643,16.0,Mixed Soil,Low,894,Very Low Risk,0,0,14
+Gujarat,Tapi,Groundnut,4.0,10101,26,245,8.981073693522532,16.0,Mixed Soil,Low,818,Low Risk,1,1,30
+Gujarat,Tapi,Maize,4.0,301,26,245,3.3162073253402093,16.0,Mixed Soil,Low,801,Low Risk,1,1,28
+Gujarat,Tapi,Rice,4.0,2601,26,245,4.292764097521542,16.0,Mixed Soil,Low,738,Low Risk,1,1,25
+Gujarat,Tapi,Sugarcane,4.0,10101,24,496,7.458163347894097,16.0,Mixed Soil,Low,228,Very High Risk,4,4,108
+Gujarat,Tapi,Groundnut,4.0,3301,25,1231,7.243442949439109,16.0,Mixed Soil,Low,143,Very High Risk,4,4,102
+Gujarat,Tapi,Jowar,4.0,15401,25,1231,5.987728825106328,16.0,Mixed Soil,Low,272,Very High Risk,4,4,96
+Gujarat,Tapi,Maize,4.0,601,25,1231,5.688773738181392,16.0,Mixed Soil,Low,203,Very High Risk,4,4,96
+Gujarat,Tapi,Rice,4.0,47301,25,1231,2.0685912624957687,16.0,Mixed Soil,Low,125,Very High Risk,4,4,104
+Gujarat,Tapi,Jowar,4.0,2801,22,17,4.741233435250404,16.0,Mixed Soil,Low,871,Very Low Risk,0,0,2
+Gujarat,Tapi,Maize,4.0,601,22,17,3.5748593995284947,16.0,Mixed Soil,Low,885,Very Low Risk,0,0,0
+Gujarat,Tapi,Wheat,4.0,5401,22,17,8.634318208051518,16.0,Mixed Soil,Low,882,Very Low Risk,0,0,10
+Gujarat,Tapi,Groundnut,4.0,10101,26,260,7.593521437419787,16.0,Mixed Soil,Low,515,Medium Risk,2,2,56
+Gujarat,Tapi,Rice,4.0,2601,26,260,7.162252039457948,16.0,Mixed Soil,Low,671,Medium Risk,2,2,64
+Gujarat,Tapi,Sugarcane,4.0,18101,24,503,5.491844629595825,16.0,Mixed Soil,Low,195,Very High Risk,4,4,98
+Gujarat,Tapi,Groundnut,4.0,2201,25,1332,9.85580601933922,16.0,Mixed Soil,Low,226,Very High Risk,4,4,105
+Gujarat,Tapi,Jowar,4.0,16201,25,1332,7.073584583395871,16.0,Mixed Soil,Low,206,Very High Risk,4,4,101
+Gujarat,Tapi,Maize,4.0,901,25,1332,3.704951247440986,16.0,Mixed Soil,Low,158,Very High Risk,4,4,99
+Gujarat,Tapi,Rice,4.0,45801,25,1332,6.898478494138447,16.0,Mixed Soil,Low,237,Very High Risk,4,4,106
+Gujarat,Tapi,Jowar,4.0,3501,22,15,3.0731529921397645,16.0,Mixed Soil,Low,874,Very Low Risk,0,0,6
+Gujarat,Tapi,Wheat,4.0,5001,22,15,9.95459265197598,16.0,Mixed Soil,Low,862,Very Low Risk,0,0,1
+Gujarat,Tapi,Bajra,4.0,101,27,240,8.11151491898178,16.0,Mixed Soil,Low,732,Low Risk,1,1,26
+Gujarat,Tapi,Groundnut,4.0,5901,27,240,4.60459635012838,16.0,Mixed Soil,Low,720,Low Risk,1,1,33
+Gujarat,Tapi,Rice,4.0,901,27,240,4.923676949197577,16.0,Mixed Soil,Low,712,Low Risk,1,1,25
+Gujarat,Tapi,Sugarcane,4.0,22401,24,529,9.3852451373399,16.0,Mixed Soil,Low,474,High Risk,3,3,88
+Gujarat,Vadodara,Bajra,4.0,12101,31,812,2.641799605317919,16.0,Mixed Soil,Low,443,High Risk,3,3,87
+Gujarat,Vadodara,Groundnut,4.0,2701,31,812,9.5723765444641,16.0,Mixed Soil,Low,318,High Risk,3,3,91
+Gujarat,Vadodara,Jowar,4.0,4801,31,812,9.482760533398,16.0,Mixed Soil,Low,315,High Risk,3,3,96
+Gujarat,Vadodara,Jowar,4.0,21201,25,19,4.127495995240919,16.0,Mixed Soil,Low,856,Very Low Risk,0,0,10
+Gujarat,Vadodara,Wheat,4.0,13901,25,19,9.064804506085173,16.0,Mixed Soil,Low,882,Very Low Risk,0,0,4
+Gujarat,Vadodara,Bajra,4.0,6101,31,150,9.538639874171263,16.0,Mixed Soil,Low,791,Low Risk,1,1,20
+Gujarat,Vadodara,Groundnut,4.0,10301,31,150,8.16369001648123,16.0,Mixed Soil,Low,723,Low Risk,1,1,28
+Gujarat,Vadodara,Maize,4.0,49201,29,327,4.772830137961843,16.0,Mixed Soil,Low,644,Medium Risk,2,2,51
+Gujarat,Vadodara,Rice,4.0,54701,29,327,5.198434176501709,16.0,Mixed Soil,Low,625,Medium Risk,2,2,60
+Gujarat,Vadodara,Sugarcane,4.0,1401,29,327,8.722163409369308,16.0,Mixed Soil,Low,548,Medium Risk,2,2,58
+Gujarat,Vadodara,Bajra,4.0,6901,30,817,3.4880644511478955,16.0,Mixed Soil,Low,446,High Risk,3,3,89
+Gujarat,Vadodara,Groundnut,4.0,1601,30,817,4.128939056772549,16.0,Mixed Soil,Low,412,High Risk,3,3,81
+Gujarat,Vadodara,Jowar,4.0,4301,30,817,7.880897605088105,16.0,Mixed Soil,Low,327,High Risk,3,3,86
+Gujarat,Vadodara,Maize,4.0,46601,30,817,3.1125327595674115,16.0,Mixed Soil,Low,362,High Risk,3,3,92
+Gujarat,Vadodara,Rice,4.0,53501,30,817,6.299965360923803,16.0,Mixed Soil,Low,329,High Risk,3,3,97
+Gujarat,Vadodara,Jowar,4.0,15901,25,19,8.98220928043223,16.0,Mixed Soil,Low,885,Very Low Risk,0,0,6
+Gujarat,Vadodara,Wheat,4.0,19801,25,19,2.407892365160981,16.0,Mixed Soil,Low,886,Very Low Risk,0,0,14
+Gujarat,Vadodara,Bajra,4.0,5901,31,146,4.506199356143413,16.0,Mixed Soil,Low,822,Low Risk,1,1,24
+Gujarat,Vadodara,Groundnut,4.0,11101,31,146,6.664024712637073,16.0,Mixed Soil,Low,777,Low Risk,1,1,29
+Gujarat,Vadodara,Sugarcane,4.0,3101,29,327,5.603594820809207,16.0,Mixed Soil,Low,646,Medium Risk,2,2,55
+Gujarat,Vadodara,Bajra,4.0,7901,29,801,9.952114987208,16.0,Mixed Soil,Low,301,High Risk,3,3,97
+Gujarat,Vadodara,Groundnut,4.0,1201,29,801,2.0436925697926664,16.0,Mixed Soil,Low,438,High Risk,3,3,77
+Gujarat,Vadodara,Jowar,4.0,4201,29,801,8.262450920595942,16.0,Mixed Soil,Low,344,High Risk,3,3,98
+Gujarat,Vadodara,Maize,4.0,49601,29,801,6.228372693479988,16.0,Mixed Soil,Low,382,High Risk,3,3,88
+Gujarat,Vadodara,Rice,4.0,48301,29,801,3.822778609424539,16.0,Mixed Soil,Low,482,High Risk,3,3,71
+Gujarat,Vadodara,Jowar,4.0,18101,24,18,8.423223439449252,16.0,Mixed Soil,Low,896,Very Low Risk,0,0,1
+Gujarat,Vadodara,Wheat,4.0,15101,24,18,3.021862674415569,16.0,Mixed Soil,Low,897,Very Low Risk,0,0,12
+Gujarat,Vadodara,Bajra,4.0,6401,31,139,3.1145468311185764,16.0,Mixed Soil,Low,753,Low Risk,1,1,33
+Gujarat,Vadodara,Groundnut,4.0,3901,31,139,5.849005001054102,16.0,Mixed Soil,Low,843,Low Risk,1,1,21
+Gujarat,Vadodara,Sugarcane,4.0,2101,28,319,7.256047386750844,16.0,Mixed Soil,Low,610,Medium Risk,2,2,57
+Gujarat,Vadodara,Bajra,4.0,8101,29,861,6.84864906319956,16.0,Mixed Soil,Low,402,High Risk,3,3,85
+Gujarat,Vadodara,Groundnut,4.0,2101,29,861,6.190752564141753,16.0,Mixed Soil,Low,400,High Risk,3,3,71
+Gujarat,Vadodara,Jowar,4.0,5801,29,861,9.11684078610152,16.0,Mixed Soil,Low,368,High Risk,3,3,98
+Gujarat,Vadodara,Maize,4.0,50201,29,861,2.040110909225003,16.0,Mixed Soil,Low,385,High Risk,3,3,85
+Gujarat,Vadodara,Rice,4.0,51501,29,861,2.096628586781554,16.0,Mixed Soil,Low,336,High Risk,3,3,88
+Gujarat,Vadodara,Jowar,4.0,10001,25,18,7.984094610567699,16.0,Mixed Soil,Low,860,Very Low Risk,0,0,2
+Gujarat,Vadodara,Wheat,4.0,6001,25,18,4.613481453751979,16.0,Mixed Soil,Low,886,Very Low Risk,0,0,6
+Gujarat,Vadodara,Bajra,4.0,3201,30,144,3.1832808127195653,16.0,Mixed Soil,Low,808,Low Risk,1,1,34
+Gujarat,Vadodara,Groundnut,4.0,1001,30,144,5.673168098996973,16.0,Mixed Soil,Low,702,Low Risk,1,1,25
+Gujarat,Vadodara,Sugarcane,4.0,1001,28,341,8.096244219912336,16.0,Mixed Soil,Low,528,Medium Risk,2,2,54
+Gujarat,Vadodara,Bajra,4.0,9301,30,818,5.794913764853516,16.0,Mixed Soil,Low,419,High Risk,3,3,89
+Gujarat,Vadodara,Groundnut,4.0,2301,30,818,2.215876412748874,16.0,Mixed Soil,Low,433,High Risk,3,3,83
+Gujarat,Vadodara,Jowar,4.0,2701,30,818,9.19395526752557,16.0,Mixed Soil,Low,396,High Risk,3,3,89
+Gujarat,Vadodara,Maize,4.0,54601,30,818,3.5848531783194035,16.0,Mixed Soil,Low,384,High Risk,3,3,89
+Gujarat,Vadodara,Rice,4.0,58601,30,818,2.8502793213803788,16.0,Mixed Soil,Low,301,High Risk,3,3,89
+Gujarat,Vadodara,Jowar,4.0,10401,24,19,7.95489143938161,16.0,Mixed Soil,Low,895,Very Low Risk,0,0,2
+Gujarat,Vadodara,Wheat,4.0,7301,24,19,5.7553397066304095,16.0,Mixed Soil,Low,862,Very Low Risk,0,0,2
+Gujarat,Vadodara,Bajra,4.0,2601,31,140,3.0248813102704526,16.0,Mixed Soil,Low,719,Low Risk,1,1,32
+Gujarat,Vadodara,Groundnut,4.0,3101,31,140,3.386340039270105,16.0,Mixed Soil,Low,785,Low Risk,1,1,26
+Gujarat,Vadodara,Sugarcane,4.0,1201,28,325,8.51417403211135,16.0,Mixed Soil,Low,618,Medium Risk,2,2,68
+Gujarat,Vadodara,Bajra,4.0,10101,30,817,2.4971067714916737,16.0,Mixed Soil,Low,426,High Risk,3,3,88
+Gujarat,Vadodara,Groundnut,4.0,1401,30,817,2.3630416465688,16.0,Mixed Soil,Low,383,High Risk,3,3,96
+Gujarat,Vadodara,Jowar,4.0,3401,30,817,3.3091159017772247,16.0,Mixed Soil,Low,434,High Risk,3,3,79
+Gujarat,Vadodara,Maize,4.0,53801,30,817,2.177591749249052,16.0,Mixed Soil,Low,427,High Risk,3,3,86
+Gujarat,Vadodara,Rice,4.0,47201,30,817,2.414926772597169,16.0,Mixed Soil,Low,365,High Risk,3,3,89
+Gujarat,Vadodara,Jowar,4.0,9401,24,18,8.794004509411073,16.0,Mixed Soil,Low,850,Very Low Risk,0,0,1
+Gujarat,Vadodara,Wheat,4.0,10501,24,18,6.135316044395927,16.0,Mixed Soil,Low,872,Very Low Risk,0,0,11
+Gujarat,Vadodara,Bajra,4.0,3601,30,124,8.505411049689279,16.0,Mixed Soil,Low,763,Low Risk,1,1,26
+Gujarat,Vadodara,Groundnut,4.0,4101,30,124,6.200229648698387,16.0,Mixed Soil,Low,793,Low Risk,1,1,24
+Gujarat,Vadodara,Sugarcane,4.0,1801,28,320,6.487052220801487,16.0,Mixed Soil,Low,607,Medium Risk,2,2,62
+Gujarat,Vadodara,Bajra,4.0,10901,30,830,7.577974912694035,16.0,Mixed Soil,Low,493,High Risk,3,3,84
+Gujarat,Vadodara,Groundnut,4.0,1701,30,830,9.561539342561703,16.0,Mixed Soil,Low,378,High Risk,3,3,93
+Gujarat,Vadodara,Jowar,4.0,10201,30,830,9.373239660125744,16.0,Mixed Soil,Low,342,High Risk,3,3,89
+Gujarat,Vadodara,Maize,4.0,50401,30,830,4.109522331647809,16.0,Mixed Soil,Low,480,High Risk,3,3,84
+Gujarat,Vadodara,Rice,4.0,47201,30,830,8.11317503769315,16.0,Mixed Soil,Low,373,High Risk,3,3,97
+Gujarat,Vadodara,Jowar,4.0,6101,25,18,2.35204164211596,16.0,Mixed Soil,Low,859,Very Low Risk,0,0,10
+Gujarat,Vadodara,Wheat,4.0,16101,25,18,7.715585657530694,16.0,Mixed Soil,Low,877,Very Low Risk,0,0,7
+Gujarat,Vadodara,Bajra,4.0,3301,31,145,6.972677741646876,16.0,Mixed Soil,Low,717,Low Risk,1,1,33
+Gujarat,Vadodara,Groundnut,4.0,12401,31,145,9.586256285805275,16.0,Mixed Soil,Low,730,Low Risk,1,1,32
+Gujarat,Vadodara,Sugarcane,4.0,2701,28,331,2.029721369565209,16.0,Mixed Soil,Low,525,Medium Risk,2,2,57
+Gujarat,Vadodara,Bajra,4.0,7701,29,838,4.973390217835765,16.0,Mixed Soil,Low,323,High Risk,3,3,87
+Gujarat,Vadodara,Groundnut,4.0,1701,29,838,9.48196240970666,16.0,Mixed Soil,Low,308,High Risk,3,3,93
+Gujarat,Vadodara,Jowar,4.0,4201,29,838,4.00577435747646,16.0,Mixed Soil,Low,301,High Risk,3,3,87
+Gujarat,Vadodara,Maize,4.0,52001,29,838,2.6350457762084,16.0,Mixed Soil,Low,342,High Risk,3,3,95
+Gujarat,Vadodara,Rice,4.0,52101,29,838,3.3301096157830523,16.0,Mixed Soil,Low,377,High Risk,3,3,92
+Gujarat,Vadodara,Jowar,4.0,7301,24,19,8.532442270123521,16.0,Mixed Soil,Low,893,Very Low Risk,0,0,3
+Gujarat,Vadodara,Wheat,4.0,16001,24,19,9.296109548193892,16.0,Mixed Soil,Low,852,Very Low Risk,0,0,10
+Gujarat,Vadodara,Bajra,4.0,2901,31,131,9.765036963978911,16.0,Mixed Soil,Low,827,Low Risk,1,1,25
+Gujarat,Vadodara,Groundnut,4.0,13601,31,131,5.722782244134752,16.0,Mixed Soil,Low,711,Low Risk,1,1,25
+Gujarat,Vadodara,Sugarcane,4.0,2301,28,329,4.67870616775136,16.0,Mixed Soil,Low,628,Medium Risk,2,2,50
+Gujarat,Vadodara,Bajra,4.0,7101,31,816,2.197953278630344,16.0,Mixed Soil,Low,490,High Risk,3,3,78
+Gujarat,Vadodara,Groundnut,4.0,1001,31,816,6.04215852601005,16.0,Mixed Soil,Low,334,High Risk,3,3,89
+Gujarat,Vadodara,Jowar,4.0,2801,31,816,8.138221449818687,16.0,Mixed Soil,Low,493,High Risk,3,3,72
+Gujarat,Vadodara,Maize,4.0,52701,31,816,3.1347621325092883,16.0,Mixed Soil,Low,355,High Risk,3,3,97
+Gujarat,Vadodara,Rice,4.0,53101,31,816,8.935505114927594,16.0,Mixed Soil,Low,317,High Risk,3,3,98
+Gujarat,Vadodara,Jowar,4.0,5401,24,18,3.3892873351423347,16.0,Mixed Soil,Low,864,Very Low Risk,0,0,1
+Gujarat,Vadodara,Wheat,4.0,15701,24,18,4.672798228973704,16.0,Mixed Soil,Low,854,Very Low Risk,0,0,7
+Gujarat,Vadodara,Bajra,4.0,3801,31,143,7.513520428110604,16.0,Mixed Soil,Low,822,Low Risk,1,1,27
+Gujarat,Vadodara,Groundnut,4.0,10101,31,143,9.081299080669908,16.0,Mixed Soil,Low,724,Low Risk,1,1,32
+Gujarat,Vadodara,Sugarcane,4.0,2401,28,326,9.642604799188447,16.0,Mixed Soil,Low,625,Medium Risk,2,2,59
+Gujarat,Vadodara,Bajra,4.0,7201,30,834,7.372438600813713,16.0,Mixed Soil,Low,494,High Risk,3,3,82
+Gujarat,Vadodara,Groundnut,4.0,1701,30,834,5.987581325682631,16.0,Mixed Soil,Low,459,High Risk,3,3,72
+Gujarat,Vadodara,Jowar,4.0,5301,30,834,7.158416123384333,16.0,Mixed Soil,Low,410,High Risk,3,3,75
+Gujarat,Vadodara,Maize,4.0,53101,30,834,3.7352864875805,16.0,Mixed Soil,Low,392,High Risk,3,3,96
+Gujarat,Vadodara,Rice,4.0,49501,30,834,5.358048415587425,16.0,Mixed Soil,Low,487,High Risk,3,3,78
+Gujarat,Vadodara,Jowar,4.0,5001,24,17,3.499618447898212,16.0,Mixed Soil,Low,862,Very Low Risk,0,0,14
+Gujarat,Vadodara,Wheat,4.0,23501,24,17,4.309242382991857,16.0,Mixed Soil,Low,900,Very Low Risk,0,0,8
+Gujarat,Vadodara,Bajra,4.0,4401,32,158,2.868005766213225,16.0,Mixed Soil,Low,848,Low Risk,1,1,26
+Gujarat,Vadodara,Groundnut,4.0,9301,32,158,4.952256504840946,16.0,Mixed Soil,Low,777,Low Risk,1,1,29
+Gujarat,Vadodara,Sugarcane,4.0,3201,28,336,2.0489707425454915,16.0,Mixed Soil,Low,502,Medium Risk,2,2,61
+Gujarat,Vadodara,Bajra,4.0,6501,29,828,4.056148352474054,16.0,Mixed Soil,Low,441,High Risk,3,3,82
+Gujarat,Vadodara,Groundnut,4.0,1101,29,828,8.795830132535055,16.0,Mixed Soil,Low,329,High Risk,3,3,90
+Gujarat,Vadodara,Jowar,4.0,1901,29,828,5.800083583391578,16.0,Mixed Soil,Low,330,High Risk,3,3,89
+Gujarat,Vadodara,Maize,4.0,51801,29,828,8.058873959395921,16.0,Mixed Soil,Low,357,High Risk,3,3,92
+Gujarat,Vadodara,Rice,4.0,61401,29,828,6.365176270012185,16.0,Mixed Soil,Low,327,High Risk,3,3,98
+Gujarat,Vadodara,Jowar,4.0,4801,24,19,5.293102737793765,16.0,Mixed Soil,Low,873,Very Low Risk,0,0,4
+Gujarat,Vadodara,Wheat,4.0,30101,24,19,4.562988887292015,16.0,Mixed Soil,Low,758,Low Risk,1,1,33
+Gujarat,Vadodara,Bajra,4.0,4801,30,149,3.823986288248425,16.0,Mixed Soil,Low,704,Low Risk,1,1,32
+Gujarat,Vadodara,Groundnut,4.0,16001,30,149,5.396645268245379,16.0,Mixed Soil,Low,777,Low Risk,1,1,33
+Gujarat,Vadodara,Sugarcane,4.0,3901,28,332,7.038996240968779,16.0,Mixed Soil,Low,389,High Risk,3,3,89
+Gujarat,Vadodara,Bajra,4.0,7901,30,824,4.920846858251973,16.0,Mixed Soil,Low,403,High Risk,3,3,77
+Gujarat,Vadodara,Groundnut,4.0,1901,30,824,8.505497355415429,16.0,Mixed Soil,Low,415,High Risk,3,3,74
+Gujarat,Vadodara,Jowar,4.0,1701,30,824,8.297784569983854,16.0,Mixed Soil,Low,472,High Risk,3,3,71
+Gujarat,Vadodara,Maize,4.0,48601,30,824,6.692421181536004,16.0,Mixed Soil,Low,354,High Risk,3,3,88
+Gujarat,Vadodara,Rice,4.0,60401,30,824,4.008809534442692,16.0,Mixed Soil,Low,368,High Risk,3,3,87
+Gujarat,Vadodara,Jowar,4.0,3101,24,20,2.408580872622787,16.0,Mixed Soil,Low,874,Very Low Risk,0,0,5
+Gujarat,Vadodara,Wheat,4.0,24401,24,20,9.117210174904452,16.0,Mixed Soil,Low,894,Very Low Risk,0,0,10
+Gujarat,Vadodara,Bajra,4.0,3701,31,130,9.133042746247586,16.0,Mixed Soil,Low,734,Low Risk,1,1,33
+Gujarat,Vadodara,Groundnut,4.0,14601,31,130,5.7273260440135925,16.0,Mixed Soil,Low,792,Low Risk,1,1,22
+Gujarat,Vadodara,Sugarcane,4.0,6601,28,325,8.01748204274626,16.0,Mixed Soil,Low,413,High Risk,3,3,84
+Gujarat,Vadodara,Bajra,4.0,7901,29,841,3.7440096028372833,16.0,Mixed Soil,Low,387,High Risk,3,3,96
+Gujarat,Vadodara,Groundnut,4.0,1101,29,841,2.1071710265086603,16.0,Mixed Soil,Low,386,High Risk,3,3,93
+Gujarat,Vadodara,Jowar,4.0,2001,29,841,8.635528613755648,16.0,Mixed Soil,Low,472,High Risk,3,3,86
+Gujarat,Vadodara,Maize,4.0,47501,29,841,2.624208298627921,16.0,Mixed Soil,Low,354,High Risk,3,3,88
+Gujarat,Vadodara,Rice,4.0,52501,29,841,7.8017391022325615,16.0,Mixed Soil,Low,374,High Risk,3,3,87
+Gujarat,Vadodara,Jowar,4.0,4701,24,19,8.54390091008242,16.0,Mixed Soil,Low,871,Very Low Risk,0,0,12
+Gujarat,Vadodara,Wheat,4.0,20101,24,19,4.2913568393478485,16.0,Mixed Soil,Low,865,Very Low Risk,0,0,2
+Gujarat,Vadodara,Bajra,4.0,3901,31,136,8.329613638766876,16.0,Mixed Soil,Low,808,Low Risk,1,1,29
+Gujarat,Vadodara,Groundnut,4.0,7201,31,136,6.124876799324367,16.0,Mixed Soil,Low,817,Low Risk,1,1,28
+Gujarat,Vadodara,Sugarcane,4.0,5601,28,332,6.514688946895118,16.0,Mixed Soil,Low,416,High Risk,3,3,83
+Gujarat,Vadodara,Bajra,4.0,4801,30,801,7.250648607375045,16.0,Mixed Soil,Low,366,High Risk,3,3,93
+Gujarat,Vadodara,Groundnut,4.0,801,30,801,3.409578044554077,16.0,Mixed Soil,Low,428,High Risk,3,3,76
+Gujarat,Vadodara,Jowar,4.0,1601,30,801,4.497473636110021,16.0,Mixed Soil,Low,332,High Risk,3,3,92
+Gujarat,Vadodara,Maize,4.0,43301,30,801,4.521614406610471,16.0,Mixed Soil,Low,491,High Risk,3,3,72
+Gujarat,Vadodara,Rice,4.0,55101,30,801,9.230330087482352,16.0,Mixed Soil,Low,423,High Risk,3,3,71
+Gujarat,Vadodara,Jowar,4.0,3901,24,20,2.7009403379351875,16.0,Mixed Soil,Low,882,Very Low Risk,0,0,3
+Gujarat,Vadodara,Maize,4.0,63901,24,20,7.400662942246587,16.0,Mixed Soil,Low,708,Low Risk,1,1,27
+Gujarat,Vadodara,Wheat,4.0,47501,24,20,6.972393645734165,16.0,Mixed Soil,Low,822,Low Risk,1,1,27
+Gujarat,Vadodara,Bajra,4.0,11301,31,145,9.012542802488674,16.0,Mixed Soil,Low,727,Low Risk,1,1,29
+Gujarat,Vadodara,Groundnut,4.0,38001,31,145,3.85981370015712,16.0,Mixed Soil,Low,808,Low Risk,1,1,31
+Gujarat,Vadodara,Maize,4.0,17101,31,145,7.702252291894493,16.0,Mixed Soil,Low,785,Low Risk,1,1,21
+Gujarat,Vadodara,Sugarcane,4.0,7701,28,322,8.56103885881343,16.0,Mixed Soil,Low,451,High Risk,3,3,75
+Gujarat,Vadodara,Bajra,4.0,7001,29,829,2.3884209925073607,16.0,Mixed Soil,Low,318,High Risk,3,3,86
+Gujarat,Vadodara,Groundnut,4.0,2601,29,829,4.89129570532037,16.0,Mixed Soil,Low,319,High Risk,3,3,91
+Gujarat,Vadodara,Jowar,4.0,1501,29,829,4.893936732465982,16.0,Mixed Soil,Low,420,High Risk,3,3,89
+Gujarat,Vadodara,Maize,4.0,44701,29,829,5.990008187167996,16.0,Mixed Soil,Low,442,High Risk,3,3,80
+Gujarat,Vadodara,Rice,4.0,44401,29,829,7.380431705946206,16.0,Mixed Soil,Low,448,High Risk,3,3,74
+Gujarat,Vadodara,Jowar,4.0,5501,24,18,2.0382720762533757,16.0,Mixed Soil,Low,886,Very Low Risk,0,0,10
+Gujarat,Vadodara,Maize,4.0,25501,24,18,2.181238431414024,16.0,Mixed Soil,Low,855,Very Low Risk,0,0,11
+Gujarat,Vadodara,Wheat,4.0,47201,24,18,3.079446113387399,16.0,Mixed Soil,Low,819,Low Risk,1,1,22
+Gujarat,Vadodara,Bajra,4.0,11301,31,130,6.291940272700111,16.0,Mixed Soil,Low,778,Low Risk,1,1,25
+Gujarat,Vadodara,Groundnut,4.0,38001,31,130,9.433764395308684,16.0,Mixed Soil,Low,756,Low Risk,1,1,28
+Gujarat,Vadodara,Maize,4.0,10901,31,130,9.806692501586792,16.0,Mixed Soil,Low,724,Low Risk,1,1,30
+Gujarat,Vadodara,Sugarcane,4.0,7001,28,326,6.224039323947334,16.0,Mixed Soil,Low,376,High Risk,3,3,96
+Gujarat,Vadodara,Bajra,4.0,8401,30,822,9.741484614700376,16.0,Mixed Soil,Low,490,High Risk,3,3,89
+Gujarat,Vadodara,Groundnut,4.0,201,30,822,7.1454361071513,16.0,Mixed Soil,Low,402,High Risk,3,3,85
+Gujarat,Vadodara,Jowar,4.0,1301,30,822,2.934478948172555,16.0,Mixed Soil,Low,424,High Risk,3,3,70
+Gujarat,Vadodara,Maize,4.0,44101,30,822,8.663503001103956,16.0,Mixed Soil,Low,335,High Risk,3,3,90
+Gujarat,Vadodara,Rice,4.0,44601,30,822,6.951541873397203,16.0,Mixed Soil,Low,459,High Risk,3,3,87
+Gujarat,Vadodara,Jowar,4.0,2801,24,17,9.924927238617617,16.0,Mixed Soil,Low,852,Very Low Risk,0,0,11
+Gujarat,Vadodara,Maize,4.0,24601,24,17,6.759553993043455,16.0,Mixed Soil,Low,855,Very Low Risk,0,0,11
+Gujarat,Vadodara,Wheat,4.0,36501,24,17,8.653138873836179,16.0,Mixed Soil,Low,763,Low Risk,1,1,26
+Gujarat,Vadodara,Bajra,4.0,4701,31,146,8.48544252425717,16.0,Mixed Soil,Low,725,Low Risk,1,1,25
+Gujarat,Vadodara,Groundnut,4.0,3001,31,146,2.3163886133093428,16.0,Mixed Soil,Low,844,Low Risk,1,1,23
+Gujarat,Vadodara,Sugarcane,4.0,7401,28,328,7.656986628850392,16.0,Mixed Soil,Low,522,Medium Risk,2,2,67
+Gujarat,Valsad,Groundnut,4.0,401,26,1612,7.635875148358613,16.0,Mixed Soil,Low,185,Very High Risk,4,4,98
+Gujarat,Valsad,Jowar,4.0,2301,26,1612,5.671528801793297,16.0,Mixed Soil,Low,167,Very High Risk,4,4,106
+Gujarat,Valsad,Jowar,4.0,201,22,17,4.213866258833766,16.0,Mixed Soil,Low,854,Very Low Risk,0,0,11
+Gujarat,Valsad,Wheat,4.0,401,22,17,2.369692101902129,16.0,Mixed Soil,Low,881,Very Low Risk,0,0,2
+Gujarat,Valsad,Groundnut,4.0,301,26,350,5.051448500422911,16.0,Mixed Soil,Low,644,Medium Risk,2,2,54
+Gujarat,Valsad,Maize,4.0,101,25,660,5.517287311367696,16.0,Mixed Soil,Low,384,High Risk,3,3,89
+Gujarat,Valsad,Rice,4.0,97801,25,660,3.1875667047126086,16.0,Mixed Soil,Low,387,High Risk,3,3,85
+Gujarat,Valsad,Sugarcane,4.0,38601,25,660,8.23137052491677,16.0,Mixed Soil,Low,199,Very High Risk,4,4,99
+Gujarat,Valsad,Groundnut,4.0,401,25,1617,2.50911768239484,16.0,Mixed Soil,Low,122,Very High Risk,4,4,106
+Gujarat,Valsad,Jowar,4.0,2501,25,1617,3.136661404935324,16.0,Mixed Soil,Low,112,Very High Risk,4,4,100
+Gujarat,Valsad,Maize,4.0,101,25,1617,9.711055933532124,16.0,Mixed Soil,Low,284,Very High Risk,4,4,96
+Gujarat,Valsad,Rice,4.0,102301,25,1617,5.61071642444968,16.0,Mixed Soil,Low,170,Very High Risk,4,4,96
+Gujarat,Valsad,Jowar,4.0,301,22,17,6.830092207964596,16.0,Mixed Soil,Low,882,Very Low Risk,0,0,6
+Gujarat,Valsad,Wheat,4.0,401,22,17,7.618842735348929,16.0,Mixed Soil,Low,893,Very Low Risk,0,0,4
+Gujarat,Valsad,Groundnut,4.0,701,27,346,2.428339036476068,16.0,Mixed Soil,Low,571,Medium Risk,2,2,56
+Gujarat,Valsad,Sugarcane,4.0,41501,24,660,3.474665586407016,16.0,Mixed Soil,Low,158,Very High Risk,4,4,101
+Gujarat,Valsad,Groundnut,4.0,701,25,1801,3.0951806021254296,16.0,Mixed Soil,Low,196,Very High Risk,4,4,105
+Gujarat,Valsad,Jowar,4.0,2701,25,1801,4.587769162280966,16.0,Mixed Soil,Low,102,Very High Risk,4,4,106
+Gujarat,Valsad,Maize,4.0,101,25,1801,9.492872320817511,16.0,Mixed Soil,Low,213,Very High Risk,4,4,106
+Gujarat,Valsad,Rice,4.0,97301,25,1801,7.689652024580067,16.0,Mixed Soil,Low,278,Very High Risk,4,4,102
+Gujarat,Valsad,Jowar,4.0,501,22,18,3.012776617974203,16.0,Mixed Soil,Low,885,Very Low Risk,0,0,11
+Gujarat,Valsad,Wheat,4.0,501,22,18,9.101775316742987,16.0,Mixed Soil,Low,867,Very Low Risk,0,0,1
+Gujarat,Valsad,Groundnut,4.0,901,26,339,9.435054947019747,16.0,Mixed Soil,Low,628,Medium Risk,2,2,68
+Gujarat,Valsad,Sugarcane,4.0,33701,24,719,4.122277502807767,16.0,Mixed Soil,Low,248,Very High Risk,4,4,102
+Gujarat,Valsad,Groundnut,4.0,401,25,1661,4.870616384454259,16.0,Mixed Soil,Low,143,Very High Risk,4,4,107
+Gujarat,Valsad,Jowar,4.0,2501,25,1661,9.224006681077878,16.0,Mixed Soil,Low,195,Very High Risk,4,4,109
+Gujarat,Valsad,Rice,4.0,99801,25,1661,3.6130033686439695,16.0,Mixed Soil,Low,111,Very High Risk,4,4,108
+Gujarat,Valsad,Jowar,4.0,401,22,18,6.979043853866757,16.0,Mixed Soil,Low,884,Very Low Risk,0,0,13
+Gujarat,Valsad,Wheat,4.0,601,22,18,9.05501651614818,16.0,Mixed Soil,Low,850,Very Low Risk,0,0,1
+Gujarat,Valsad,Groundnut,4.0,301,26,344,9.55640217311894,16.0,Mixed Soil,Low,610,Medium Risk,2,2,67
+Gujarat,Valsad,Rice,4.0,901,26,344,5.836170724765443,16.0,Mixed Soil,Low,503,Medium Risk,2,2,67
+Gujarat,Valsad,Sugarcane,4.0,26901,24,674,4.2852665923166064,16.0,Mixed Soil,Low,169,Very High Risk,4,4,104
+Gujarat,Valsad,Groundnut,4.0,601,25,1718,9.57900664050115,16.0,Mixed Soil,Low,254,Very High Risk,4,4,104
+Gujarat,Valsad,Jowar,4.0,2401,25,1718,2.404874107318125,16.0,Mixed Soil,Low,294,Very High Risk,4,4,103
+Gujarat,Valsad,Rice,4.0,109201,25,1718,2.041535175804692,16.0,Mixed Soil,Low,203,Very High Risk,4,4,103
+Gujarat,Valsad,Jowar,4.0,301,21,19,5.861227490190675,16.0,Mixed Soil,Low,850,Very Low Risk,0,0,0
+Gujarat,Valsad,Wheat,4.0,701,21,19,5.231472496731173,16.0,Mixed Soil,Low,869,Very Low Risk,0,0,9
+Gujarat,Valsad,Groundnut,4.0,201,26,360,7.316737679868755,16.0,Mixed Soil,Low,673,Medium Risk,2,2,50
+Gujarat,Valsad,Rice,4.0,401,26,360,5.500977630279917,16.0,Mixed Soil,Low,590,Medium Risk,2,2,50
+Gujarat,Valsad,Sugarcane,4.0,24001,24,699,6.085348198661149,16.0,Mixed Soil,Low,118,Very High Risk,4,4,106
+Gujarat,Valsad,Groundnut,4.0,501,25,1617,6.052035677306962,16.0,Mixed Soil,Low,202,Very High Risk,4,4,104
+Gujarat,Valsad,Jowar,4.0,2301,25,1617,8.870934197042594,16.0,Mixed Soil,Low,167,Very High Risk,4,4,99
+Gujarat,Valsad,Rice,4.0,87901,25,1617,4.315096515195753,16.0,Mixed Soil,Low,144,Very High Risk,4,4,108
+Gujarat,Valsad,Jowar,4.0,201,21,18,8.443696865063774,16.0,Mixed Soil,Low,892,Very Low Risk,0,0,8
+Gujarat,Valsad,Wheat,4.0,1001,21,18,8.082903743579823,16.0,Mixed Soil,Low,853,Very Low Risk,0,0,12
+Gujarat,Valsad,Groundnut,4.0,101,26,324,9.231100610415831,16.0,Mixed Soil,Low,668,Medium Risk,2,2,54
+Gujarat,Valsad,Rice,4.0,5901,26,324,7.979846679961501,16.0,Mixed Soil,Low,647,Medium Risk,2,2,65
+Gujarat,Valsad,Sugarcane,4.0,39301,24,653,9.52882989819533,16.0,Mixed Soil,Low,147,Very High Risk,4,4,101
+Gujarat,Valsad,Jowar,4.0,101,25,1630,2.565871953726812,16.0,Mixed Soil,Low,219,Very High Risk,4,4,109
+Gujarat,Valsad,Rice,4.0,42701,25,1630,2.0165068007840867,16.0,Mixed Soil,Low,224,Very High Risk,4,4,98
+Gujarat,Valsad,Wheat,4.0,501,22,18,5.790366695789938,16.0,Mixed Soil,Low,860,Very Low Risk,0,0,8
+Gujarat,Valsad,Bajra,4.0,101,26,345,2.1419945113599885,16.0,Mixed Soil,Low,600,Medium Risk,2,2,58
+Gujarat,Valsad,Rice,4.0,301,26,345,6.02604159849037,16.0,Mixed Soil,Low,575,Medium Risk,2,2,64
+Gujarat,Valsad,Sugarcane,4.0,11201,24,664,4.8143840182201885,16.0,Mixed Soil,Low,148,Very High Risk,4,4,106
+Gujarat,Valsad,Groundnut,4.0,101,25,1538,7.365720132877338,16.0,Mixed Soil,Low,153,Very High Risk,4,4,109
+Gujarat,Valsad,Jowar,4.0,101,25,1538,9.170477695134164,16.0,Mixed Soil,Low,235,Very High Risk,4,4,103
+Gujarat,Valsad,Rice,4.0,49101,25,1538,6.085376064100757,16.0,Mixed Soil,Low,214,Very High Risk,4,4,97
+Gujarat,Valsad,Wheat,4.0,501,21,17,9.695862992355393,16.0,Mixed Soil,Low,899,Very Low Risk,0,0,9
+Gujarat,Valsad,Rice,4.0,101,26,361,9.217527373220165,16.0,Mixed Soil,Low,619,Medium Risk,2,2,58
+Gujarat,Valsad,Sugarcane,4.0,14001,24,638,6.445266636616514,16.0,Mixed Soil,Low,280,Very High Risk,4,4,104
+Gujarat,Valsad,Jowar,4.0,201,26,1716,2.9674072732262164,16.0,Mixed Soil,Low,203,Very High Risk,4,4,106
+Gujarat,Valsad,Rice,4.0,47501,26,1716,4.4795648610548735,16.0,Mixed Soil,Low,229,Very High Risk,4,4,102
+Gujarat,Valsad,Wheat,4.0,601,21,18,9.384367759842398,16.0,Mixed Soil,Low,879,Very Low Risk,0,0,9
+Gujarat,Valsad,Rice,4.0,1701,26,363,2.5156174989304727,16.0,Mixed Soil,Low,635,Medium Risk,2,2,57
+Gujarat,Valsad,Sugarcane,4.0,15901,24,699,7.02656275704389,16.0,Mixed Soil,Low,155,Very High Risk,4,4,97
+Gujarat,Valsad,Groundnut,4.0,201,25,1634,8.630944695941944,16.0,Mixed Soil,Low,104,Very High Risk,4,4,96
+Gujarat,Valsad,Jowar,4.0,201,25,1634,7.06639216491273,16.0,Mixed Soil,Low,272,Very High Risk,4,4,96
+Gujarat,Valsad,Rice,4.0,50601,25,1634,3.9790348871180106,16.0,Mixed Soil,Low,157,Very High Risk,4,4,96
+Gujarat,Valsad,Wheat,4.0,601,22,17,4.6012916035537135,16.0,Mixed Soil,Low,889,Very Low Risk,0,0,11
+Gujarat,Valsad,Rice,4.0,1801,27,358,9.069666698063674,16.0,Mixed Soil,Low,635,Medium Risk,2,2,67
+Gujarat,Valsad,Sugarcane,4.0,16201,24,669,8.22134268832145,16.0,Mixed Soil,Low,202,Very High Risk,4,4,101
+Gujarat,Valsad,Groundnut,4.0,201,25,1628,3.960346541555962,16.0,Mixed Soil,Low,147,Very High Risk,4,4,100
+Gujarat,Valsad,Jowar,4.0,201,25,1628,9.950060018729488,16.0,Mixed Soil,Low,241,Very High Risk,4,4,95
+Gujarat,Valsad,Rice,4.0,57501,25,1628,2.026598760822524,16.0,Mixed Soil,Low,262,Very High Risk,4,4,100
+Gujarat,Valsad,Wheat,4.0,301,22,17,9.760569443148691,16.0,Mixed Soil,Low,887,Very Low Risk,0,0,6
+Gujarat,Valsad,Rice,4.0,801,25,349,4.752596653741326,16.0,Mixed Soil,Low,650,Medium Risk,2,2,63
+Gujarat,Valsad,Sugarcane,4.0,9901,24,664,2.6516966170535525,16.0,Mixed Soil,Low,195,Very High Risk,4,4,96
+Gujarat,Valsad,Groundnut,4.0,201,26,1624,9.324496779025749,16.0,Mixed Soil,Low,180,Very High Risk,4,4,107
+Gujarat,Valsad,Jowar,4.0,101,26,1624,2.3127589270216147,16.0,Mixed Soil,Low,204,Very High Risk,4,4,101
+Gujarat,Valsad,Rice,4.0,60301,26,1624,3.09406190815129,16.0,Mixed Soil,Low,203,Very High Risk,4,4,106
+Gujarat,Valsad,Jowar,4.0,101,21,20,4.195924592955751,16.0,Mixed Soil,Low,873,Very Low Risk,0,0,8
+Gujarat,Valsad,Wheat,4.0,301,21,20,4.857309411134473,16.0,Mixed Soil,Low,899,Very Low Risk,0,0,5
+Gujarat,Valsad,Rice,4.0,801,27,380,5.592007000241434,16.0,Mixed Soil,Low,622,Medium Risk,2,2,58
+Gujarat,Valsad,Sugarcane,4.0,9601,24,675,6.448026892921549,16.0,Mixed Soil,Low,248,Very High Risk,4,4,102
+Gujarat,Valsad,Groundnut,4.0,201,25,1641,5.005422937434118,16.0,Mixed Soil,Low,287,Very High Risk,4,4,98
+Gujarat,Valsad,Jowar,4.0,101,25,1641,6.014042333660597,16.0,Mixed Soil,Low,173,Very High Risk,4,4,97
+Gujarat,Valsad,Rice,4.0,58301,25,1641,4.9669736791399695,16.0,Mixed Soil,Low,133,Very High Risk,4,4,102
+Gujarat,Valsad,Wheat,4.0,301,21,17,3.392226302152896,16.0,Mixed Soil,Low,873,Very Low Risk,0,0,7
+Gujarat,Valsad,Rice,4.0,701,26,336,4.947096937667619,16.0,Mixed Soil,Low,518,Medium Risk,2,2,60
+Gujarat,Valsad,Sugarcane,4.0,8601,24,664,8.792261537374145,16.0,Mixed Soil,Low,163,Very High Risk,4,4,107
+Gujarat,Valsad,Groundnut,4.0,201,25,1701,8.983482465348825,16.0,Mixed Soil,Low,130,Very High Risk,4,4,100
+Gujarat,Valsad,Jowar,4.0,101,25,1701,2.619192871066902,16.0,Mixed Soil,Low,109,Very High Risk,4,4,99
+Gujarat,Valsad,Rice,4.0,58601,25,1701,4.175207669590945,16.0,Mixed Soil,Low,204,Very High Risk,4,4,103
+Gujarat,Valsad,Jowar,4.0,101,22,20,2.322464972363073,16.0,Mixed Soil,Low,875,Very Low Risk,0,0,9
+Gujarat,Valsad,Rice,4.0,9501,26,355,2.1967281960966183,16.0,Mixed Soil,Low,537,Medium Risk,2,2,52
+Gujarat,Valsad,Sugarcane,4.0,8801,24,692,8.096333891463868,16.0,Mixed Soil,Low,200,Very High Risk,4,4,107
+Gujarat,Valsad,Groundnut,4.0,301,25,1629,3.967391214521111,16.0,Mixed Soil,Low,214,Very High Risk,4,4,100
+Gujarat,Valsad,Jowar,4.0,301,25,1629,9.414702382805574,16.0,Mixed Soil,Low,188,Very High Risk,4,4,99
+Gujarat,Valsad,Rice,4.0,67301,25,1629,2.1836411446668107,16.0,Mixed Soil,Low,244,Very High Risk,4,4,105
+Gujarat,Valsad,Jowar,4.0,101,22,18,9.462262995771855,16.0,Mixed Soil,Low,863,Very Low Risk,0,0,7
+Gujarat,Valsad,Wheat,4.0,201,22,18,7.047567772574588,16.0,Mixed Soil,Low,856,Very Low Risk,0,0,11
+Gujarat,Valsad,Groundnut,4.0,101,26,330,6.345769217586298,16.0,Mixed Soil,Low,604,Medium Risk,2,2,53
+Gujarat,Valsad,Rice,4.0,2701,26,330,6.537024034046391,16.0,Mixed Soil,Low,692,Medium Risk,2,2,64
+Gujarat,Valsad,Sugarcane,4.0,7601,24,659,2.7280372753798785,16.0,Mixed Soil,Low,209,Very High Risk,4,4,109
+Gujarat,Valsad,Groundnut,4.0,301,25,1622,2.342218860104282,16.0,Mixed Soil,Low,132,Very High Risk,4,4,109
+Gujarat,Valsad,Jowar,4.0,401,25,1622,3.8896583090263928,16.0,Mixed Soil,Low,182,Very High Risk,4,4,98
+Gujarat,Valsad,Rice,4.0,63801,25,1622,8.784628147735821,16.0,Mixed Soil,Low,265,Very High Risk,4,4,95
+Gujarat,Valsad,Rice,4.0,601,27,356,6.356924383961228,16.0,Mixed Soil,Low,626,Medium Risk,2,2,59
+Gujarat,Valsad,Sugarcane,4.0,8601,24,665,4.127351096974255,16.0,Mixed Soil,Low,420,High Risk,3,3,72
+Gujarat,Ahmedabad,Jowar,4.0,1001,23,6,5.110885951313763,16.0,Mixed Soil,Low,884,Very Low Risk,0,0,2
+Gujarat,Ahmedabad,Jowar,4.0,1001,23,6,7.492089472096471,16.0,Mixed Soil,Low,861,Very Low Risk,0,0,14
+Gujarat,Ahmedabad,Jowar,4.0,1001,23,6,3.060268055586171,16.0,Mixed Soil,Low,866,Very Low Risk,0,0,3
+Gujarat,Ahmedabad,Jowar,4.0,1001,23,6,6.021629090458895,16.0,Mixed Soil,Low,863,Very Low Risk,0,0,1
+Gujarat,Ahmedabad,Jowar,4.0,1001,23,6,3.0644377469070223,16.0,Mixed Soil,Low,891,Very Low Risk,0,0,1

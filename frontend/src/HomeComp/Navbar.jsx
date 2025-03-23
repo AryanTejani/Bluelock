@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from "react";
 import { FaGlobe, FaUserCircle, FaRobot } from "react-icons/fa";
 import { HiOutlineChartBar, HiMenu, HiX } from "react-icons/hi";
 import { Link, useNavigate } from "react-router-dom";
-import logo from "../assets/logo5.png";
+import logo from "../assets/mainlogo.png";
 import { useTranslation } from "react-i18next";
 import { AuthContext } from "../context/AuthContext";
 
@@ -66,7 +66,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <Link to="/">
-              <img className="h-10 w-auto" src={logo} alt="FarmCredit Logo" />
+              <img className="h-14 w-[80px]" src={logo} alt="FarmCredit Logo" />
               </Link>
             </div>
             <div className="hidden md:block">
