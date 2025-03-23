@@ -15,7 +15,7 @@ import ResetPassword from "./pages/ResetPassword";
 import FarmerDashboard from "./pages/FarmerDashboard";
 import AgentDashboard from "./pages/AgentDashboard";
 import Home from "./HomeComp/Home";
-
+import Ai from "./Farmers/Ai"
 // Protected route component
 const ProtectedRoute = ({ children, allowedRole }) => {
   const token = localStorage.getItem("token");
@@ -65,7 +65,7 @@ const App = () => {
             </ProtectedRoute>
           }
         />
-
+      <Route path="/personalised-ai" element={<Ai />} />
         {/* Default Route */}
         <Route path="/" element={<Home />} />
         <Route path="*" element={<Navigate to="/login" />} />
