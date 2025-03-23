@@ -7,7 +7,6 @@ import { MdOutlineWaterDrop, MdNotifications, MdOutlineInsights, MdOutlineMoneti
 import { BsGraphUp, BsCalendarCheck, BsBank2, BsShield } from 'react-icons/bs';
 import { RiGovernmentLine, RiPlantLine, RiMoneyDollarCircleLine } from 'react-icons/ri';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
-import logo from '../assets/logo5.png';
 import { useTranslation } from 'react-i18next';
 import Navbar from './Navbar';
 // Simplified Navbar component with Language Selector

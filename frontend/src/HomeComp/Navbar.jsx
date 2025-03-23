@@ -59,6 +59,33 @@ const Navbar = () => {
     navigate("/personalised-ai");
   };
 
+  // Smooth scroll function
+  const handleSmoothScroll = (e, targetId) => {
+    e.preventDefault();
+    
+    // Close mobile menu if open
+    if (mobileMenuOpen) {
+      setMobileMenuOpen(false);
+    }
+    
+    // Find the target element to scroll to
+    const targetElement = document.getElementById(targetId);
+    
+    if (targetElement) {
+      // Scroll smoothly to the target element
+      targetElement.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    } else if (targetId === 'home') {
+      // If home, scroll to top
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    }
+  };
+
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-gray-900/90 backdrop-blur-md border-b border-emerald-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -71,32 +98,37 @@ const Navbar = () => {
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
-                <Link
-                  to="/"
+                <a
+                  href="#home"
+                  onClick={(e) => handleSmoothScroll(e, 'home')}
                   className="text-white hover:text-emerald-400 px-3 py-2 rounded-md text-sm font-medium"
                 >
                   {t("navbar.home")}
-                </Link>
+                </a>
                 <a
                   href="#data-integration"
+                  onClick={(e) => handleSmoothScroll(e, 'data-integration')}
                   className="text-emerald-100 hover:text-emerald-400 px-3 py-2 rounded-md text-sm font-medium"
                 >
                   {t("navbar.dataIntegration")}
                 </a>
                 <a
                   href="#credit-scoring"
+                  onClick={(e) => handleSmoothScroll(e, 'credit-scoring')}
                   className="text-emerald-100 hover:text-emerald-400 px-3 py-2 rounded-md text-sm font-medium"
                 >
                   {t("navbar.creditScoring")}
                 </a>
                 <a
                   href="#user-access"
+                  onClick={(e) => handleSmoothScroll(e, 'user-access')}
                   className="text-emerald-100 hover:text-emerald-400 px-3 py-2 rounded-md text-sm font-medium"
                 >
                   {t("navbar.userAccess")}
                 </a>
                 <a
                   href="#compliance"
+                  onClick={(e) => handleSmoothScroll(e, 'compliance')}
                   className="text-emerald-100 hover:text-emerald-400 px-3 py-2 rounded-md text-sm font-medium"
                 >
                   {t("navbar.compliance")}
@@ -222,30 +254,35 @@ const Navbar = () => {
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-gray-900 border-b border-emerald-800">
           <a
             href="#home"
+            onClick={(e) => handleSmoothScroll(e, 'home')}
             className="text-white block px-3 py-2 rounded-md text-base font-medium"
           >
             {t("navbar.home")}
           </a>
           <a
             href="#data-integration"
+            onClick={(e) => handleSmoothScroll(e, 'data-integration')}
             className="text-emerald-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
           >
             {t("navbar.dataIntegration")}
           </a>
           <a
             href="#credit-scoring"
+            onClick={(e) => handleSmoothScroll(e, 'credit-scoring')}
             className="text-emerald-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
           >
             {t("navbar.creditScoring")}
           </a>
           <a
             href="#user-access"
+            onClick={(e) => handleSmoothScroll(e, 'user-access')}
             className="text-emerald-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
           >
             {t("navbar.userAccess")}
           </a>
           <a
             href="#compliance"
+            onClick={(e) => handleSmoothScroll(e, 'compliance')}
             className="text-emerald-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
           >
             {t("navbar.compliance")}
